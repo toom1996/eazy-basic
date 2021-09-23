@@ -1,0 +1,19 @@
+{
+    "name": "eazysoft/eazy-basic",
+    "description": "Eazy Basic Project Template",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "eazysoft/eazy": "dev-main"
+    },
+    "scripts": {
+        "post-install-cmd": [
+           "eazy\\composer\\Installer::postCreateProject"
+        ],
+        "post-create-project-cmd": [
+            "eazy\\composer\\Installer::postCreateProject",
+            "eazy\\composer\\Installer::postInstall"
+        ]
+    }
+}
