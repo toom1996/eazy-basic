@@ -5,15 +5,17 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=8.0",
-        "eazysoft/eazy": "dev-main"
+        "eazysoft/eazy": "dev-main",
+        "eazysoft/eazy-http": "dev-main"
     },
-    "scripts": {
-        "post-install-cmd": [
-           "eazy\\composer\\Installer::postCreateProject"
-        ],
-        "post-create-project-cmd": [
-            "eazy\\composer\\Installer::postCreateProject",
-            "eazy\\composer\\Installer::postInstall"
-        ]
-    }
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    ]
 }
