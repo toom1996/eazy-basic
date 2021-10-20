@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'id' => 'Eazy',
+    'extension' => require 'extension.php'
 ];

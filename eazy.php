@@ -12,5 +12,7 @@ ini_set('display_startup_errors', 'on');
 error_reporting(E_ALL);
 date_default_timezone_set('Asia/Shanghai');
 
-$console = new \eazy\console\Console();
-$console->run();
+(function() {
+    $console = new \eazy\console\Console();
+    $console->run();
+})();
