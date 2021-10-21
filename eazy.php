@@ -3,6 +3,7 @@
 defined('APP_PATH') or define('APP_PATH', __DIR__);
 
 defined('APP_CONFIG') or define('APP_CONFIG', __DIR__ . '/app.php');
+defined('APP_SERVER') or define('APP_SERVER', __DIR__ . '/server.php');
 
 require __DIR__ . '/vendor/autoload.php';
 
@@ -16,3 +17,9 @@ date_default_timezone_set('Asia/Shanghai');
     $console = new \eazy\console\Console();
     $console->run();
 })();
+
+function server($key = '')
+{
+    $server = include APP_SERVER;
+    return \eazy\helpers\BaseArrayHelper::getValue($server, $key, null);
+}
