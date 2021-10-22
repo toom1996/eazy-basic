@@ -2,6 +2,11 @@
 
 return [
   'eazysoft/eazy-http' => [
+      'aliases' => [
+          '@app' => '/www/wwwroot/eazy-basic',
+          '@runtime' => __DIR__ . '/runtime',
+          '@controllers' => '/www/wwwroot/eazy-basic/controllers',
+      ],
     'server' => [
       0 => [
         'name' => 's1',

@@ -23,3 +23,9 @@ function server($key = '')
     $server = include APP_SERVER;
     return \eazy\helpers\BaseArrayHelper::getValue($server, $key, null);
 }
+
+function config($key = '')
+{
+    $config = include APP_CONFIG;
+    return \eazy\helpers\BaseArrayHelper::getValue($config, $key, null);
+}
