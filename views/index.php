@@ -88,14 +88,8 @@ $this->title = 'Goblin framework!';
 </style>
 <div class="container">
     <header class="c-header-box">
-        <h2 class="main-title">eazysoft/eazy-http</h2>
-        <h2 class="title">A swoole http extension for eazy framework</h2>
-        <div class="guide">
-            <div class="installation-a">
-                Install Eazy
-            </div>
-            <div class="installation-b">composer create-project toom1996/eazy-basic</div>
-        </div>
+        <h2 class="main-title">eazyframework</h2>
+        <h2 class="title">a web framework based for swoole extension</h2>
         <div>
             <a href="https://github.com/toom1996/goblin-basic" rel="nofollow noreferrer" class="guide-button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="css-1nh8p6y">
@@ -109,17 +103,4 @@ $this->title = 'Goblin framework!';
         </div>
         <p class="version">Currently ： v1.0.0 | Last update time：2021-10-09</p>
     </header>
-    <div class="bs-docs-featurette">
-        <div class="container">
-<!--            <h2 class="bs-docs-featurette-title">为所有开发者、所有应用场景而设计</h2>-->
-<!--            <p class="lead">Bootstrap 让前端开发更快速、简单。所有开发者都能快速上手、所有设备都可以适配、所有项目都适用。</p>-->
-<!---->
-<!--            <hr class="half-rule">-->
-<!---->
-<!--            <hr class="half-rule">-->
-<!---->
-<!--            <p class="lead">Bootstrap 是完全开源的。代码的托管、开发和维护都在 GitHub 平台上完成。</p>-->
-<!--            <a href="https://github.com/twbs/bootstrap" class="btn btn-outline btn-lg">查看 GitHub 项目主页</a>-->
-        </div>
-    </div>
 </div>
