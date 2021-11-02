@@ -8,7 +8,7 @@ use eazy\http\event\WorkerStartCallback;
 
 $callbacks = [
     SwooleEvent::SWOOLE_ON_START => [StartCallback::class, 'onStart'],
-    SwooleEvent::SWOOLE_ON_REQUEST => [RequestCallback::class, 'onRequest'],
+    SwooleEvent::SWOOLE_ON_REQUEST => new RequestCallback,
     SwooleEvent::SWOOLE_ON_WORKER_START => [WorkerStartCallback::class, 'onWorkerStart'],
     SwooleEvent::SWOOLE_ON_WORKER_ERROR => [WorkerErrorCallback::class, 'onWorkerError'],
 ];
@@ -29,6 +29,7 @@ return [
                 'hook_flags' => SWOOLE_HOOK_ALL,
                 'daemonize' => false,
             ],
+            'config' => require 'config/app.php'
         ],
         's2' => [
             'host' => '0.0.0.0',
@@ -37,12 +38,13 @@ return [
             'callbacks' => $callbacks,
             'settings' => [
                 'worker_num' => 1,
-                'enable_coroutine' => false,
+                'enable_coroutine' => true,
                 'hook_flags' => 2147481599,
                 'daemonize' => false,
                 'log_file' => '/www/wwwroot/eazy-basic/runtime/s2.log',
                 'pid_file' => '/www/wwwroot/eazy-basic/runtime/s2.pid',
             ],
+            'configPath' => APP_PATH . '/config/s1'
         ],
     ],
 ];

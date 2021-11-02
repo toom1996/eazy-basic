@@ -2,25 +2,25 @@
 
 namespace app\controllers;
 
-use eazy\Eazy;
-use eazy\http\Controller;
-use eazy\http\exceptions\NotFoundHttpException;
-use Swoole\Http\Server;
+use eazy\http\Module;
 
-class SiteController extends Controller
+class SiteController extends Module
 {
-    /**
-     * @route ['GET', '/']
-     * @return bool|string
-     */
-    public function actionIndex(): bool|string
+
+    public function actionIndex()
     {
-        return $this->render('@app/views/index');
+//        return 405;
+        $this->response->setHeaders([
+            'x-xss-protection' => 0
+        ]);
+        $this->response->setHeaders([
+            'xpp' => 0
+        ], true)->setStatusCode(500);
+        return $this->view->render('@app/views/index');
     }
 
     public function actionMethods(): int
     {
-        var_dump(memory_get_usage());
 //        throw new NotFoundHttpException('page not found');
         return 123;
 //        echo __FUNCTION__;

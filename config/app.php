@@ -1,5 +1,6 @@
 <?php
 
 return [
-    'extension' => require 'extension.php'
+    'bootstrap' => [],
+    'component' => []
 ];
