@@ -1,6 +1,5 @@
 <?php
 
 return [
-    'class' => \eazy\http\Response::class,
-    'bootstrap' => true
+    'class' => \eazy\http\Response::class
 ];
