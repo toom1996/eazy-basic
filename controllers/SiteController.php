@@ -16,7 +16,7 @@ class SiteController extends Module
         $this->response->setHeaders([
             'xpp' => 0
         ], true)->setStatusCode(500);
-        return $this->view->render('@app/views/index');
+        return $this->view->render('index');
     }
 
     public function actionMethods(): int

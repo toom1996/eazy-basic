@@ -1,6 +1,7 @@
 <?php
 
 return [
-    'bootstrap' => [],
-    'component' => []
+    'aliases' => [],
+    'components' => [],
+    'params' => ''
 ];
