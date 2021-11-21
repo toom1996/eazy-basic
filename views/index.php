@@ -101,6 +101,6 @@ $this->title = 'Goblin framework!';
                     <line x1="12" y1="19" x2="20" y2="19"></line>
                 </svg>Documentation</a>
         </div>
-        <p class="version">Currently ： v1.0.0 | Last update time：2021-10-09</p>
+        <p class="version">Currently ： <?= \eazy\http\App::version() ?> | Last update time：2021-10-09</p>
     </header>
 </div>

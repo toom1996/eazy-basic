@@ -37,6 +37,8 @@ return [
             'type' => \eazy\http\server\HttpServer::class,
             'callbacks' => $callbacks,
             'settings' => [
+                'document_root' => APP_PATH,
+                'enable_static_handler' => true,
                 'worker_num' => 1,
                 'enable_coroutine' => true,
                 'hook_flags' => 2147481599,

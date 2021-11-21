@@ -2,10 +2,12 @@
 
 namespace app\controllers;
 
+use Composer\Composer;
 use eazy\http\Module;
 
 class SiteController extends Module
 {
+
 
     public function actionIndex()
     {
@@ -15,7 +17,7 @@ class SiteController extends Module
         ]);
         $this->response->setHeaders([
             'xpp' => 0
-        ], true)->setStatusCode(500);
+        ], true)->setStatusCode(200);
         return $this->view->render('index');
     }
 
