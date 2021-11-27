@@ -46,7 +46,7 @@ return [
                 'log_file' => '/www/wwwroot/eazy-basic/runtime/s2.log',
                 'pid_file' => '/www/wwwroot/eazy-basic/runtime/s2.pid',
             ],
-            'configPath' => APP_PATH . '/config/s1'
+            'configPath' => APP_PATH . '/config/app.php'
         ],
     ],
 ];

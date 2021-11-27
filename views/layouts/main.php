@@ -10,7 +10,7 @@
         <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="360-site-verification" content="5f7a09c76f4dbe80283ce1d9b27040e3" />
         <meta name="pop-verification" content="f4ae396f5b0edaeac33d4281e3da46c5">
-        <title><?=  $this->title ?? 'Default title' ?></title>
+        <title><?= $title ?></title>
         <meta name="keywords" content="伦敦时装周,T台秀场"/>
         <meta name="description" content="POP服装趋势网T台栏目为服装企业和设计师提供伦敦时装周、T台秀场等相关资讯，满足用户和设计师对四大时装周等全球T台秀场内容需求。"/>
         <meta name="robots" content="all"/>

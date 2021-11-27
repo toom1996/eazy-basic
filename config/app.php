@@ -1,7 +1,14 @@
 <?php
 
 return [
-    'aliases' => [],
-    'components' => [],
-    'params' => ''
+    'aliases' => [
+        '@controllers' => APP_PATH . '/controllers'
+    ],
+    'components' => [
+        'router' => [
+            'route' => [
+                ['GET', '/', '@controllers/site/index'],
+            ]
+        ]
+    ],
 ];
