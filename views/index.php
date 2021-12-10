@@ -1,6 +1,9 @@
 <?php
-//$this->title = '123123';
+$this->title = '123123';
 ?>
+<?php foreach ($query as $index => $item): ?>
+    <?= "{$index}->{$item}" ?>
+<?php endforeach; ?>
 <h1 style="display: none;">伦敦时装周_T台秀场</h1>
 <!-- header start -->
 
@@ -36,7 +39,7 @@
                 <div class="user-box fl">
                     <a href='javascript:void(0);' class='loginLayer' rel="nofollow" title="登录"><span class="lg"></span>登录</a>
                     <i></i>
-                    <a class="reg-btn" href="/member/register/" rel="nofollow" title="注册"><span class="rg"></span>注册</a>
+                    <a class="reg-btn" href="/member/register" rel="nofollow" title="注册"><span class="rg"></span>注册</a>
                 </div>
                 <a href="javascript:void(0);" class="js-contact-qq-btn contact-btn" rel="nofollow">了解VIP</a>
             </div>
@@ -95,7 +98,7 @@
                 <div class="user-box fl">
                     <a href='javascript:void(0);' class='loginLayer' rel="nofollow" title="登录"><span class="lg"></span>登录</a>
                     <i></i>
-                    <a class="reg-btn" href="/member/register/" rel="nofollow" title="注册"><span class="rg"></span>注册</a>
+                    <a class="reg-btn" href="/member/register" rel="nofollow" title="注册"><span class="rg"></span>注册</a>
                 </div>
                 <a href="javascript:void(0);" class="js-contact-qq-btn contact-btn" rel="nofollow">了解VIP</a>
             </div>
@@ -1017,7 +1020,7 @@
         <a class="success-tel">4008-210-500</a>
     </div>
     <p class="success-infor">不急，先体验网站内容</p>
-    <a class="success-reg" href="/member/register/" rel="nofollow">注册</a>
+    <a class="success-reg" href="/member/register" rel="nofollow">注册</a>
     <div class="close js-col-close" data-sta='1'></div>
 </div>
 
@@ -1034,7 +1037,7 @@
 </div>
 
 <!-- main end -->
-<?= $this->render('widgets/footer') ?>
+<?= $this->renderFile('@app/views/widgets/footer.php', []) ?>
 <!-- 侧边导航 -->
 <div class="nav_fixed">
     <ul>
@@ -1233,7 +1236,7 @@
             <div class="is-user">
                 <p></p>
                 <a class="bott-a1 loginLayer" href="javascript:void(0);" rel="nofollow" title="查看大图">登录</a>
-                <a class="bott-a2" href="/member/register/" target="_blank" title="查看大图" rel="nofollow">注册</a>
+                <a class="bott-a2" href="/member/register" target="_blank" title="查看大图" rel="nofollow">注册</a>
                 <a class="bott-a3 js-contact-qq-btn" href="javascript:void(0);" title="查看大图" rel="nofollow">联系客服</a>
             </div>
         </div>
@@ -1247,7 +1250,7 @@
                 <p>拨打 4008-210-500 咨询VIP服务</p>
             </div>
             <div class="fr">
-                <a class="trials-reg-btn" href="/member/register/" target="_blank" rel="nofollow">立即注册</a>
+                <a class="trials-reg-btn" href="/member/register" target="_blank" rel="nofollow">立即注册</a>
                 <a class="trials-contact-btn js-contact-qq-btn" href="javascript:void(0);" rel="nofollow">畅通无阻快速了解</a>
             </div>
         </div>
@@ -1494,7 +1497,7 @@
             </div>
             <div class="forget-right">
                 没有账号？
-                <a data-url="/member/register/" rel="nofollow">立即注册</a>
+                <a data-url="/member/register" rel="nofollow">立即注册</a>
             </div>
         </div>
     </div>

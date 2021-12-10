@@ -10,10 +10,15 @@ return [
         'router' => [
             'route' => [
                 ['GET', '/', '@controllers/site/index'],
+                // Group route.
+                '/member' => [
+                    // set different routes to point to the same action.
+                    ['GET', '/register', '@controllers/member/register']
+                ],
             ]
         ],
         'db' => [
-            'host' => '192.168.10.154',
+            'host' => '192.168.10.35',
             'port' => 3306,
             'dbname' => 'toom',
             'charset' => 'utf8mb4',

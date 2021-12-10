@@ -1,5 +1,6 @@
 <?php
-//\app\asset\AppAsset::register();
+/* @var $this \eazy\http\web\View */
+\app\asset\AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
     <!DOCTYPE html>
@@ -32,7 +33,7 @@
         <link rel="stylesheet" type="text/css" href="https://imgf2.pop-fashion.com/global/css/pop_layer.css?2021111101">
         <link rel="stylesheet" type="text/css" href="https://imgf2.pop-fashion.com/global/css/lists/common/list-common.css?2021111101">
         <link rel="stylesheet" type="text/css" href="https://imgf2.pop-fashion.com/global/css/lists/runway-list.css?2021111101">
-
+        <?= $this->head() ?>
     </head>
     <body>
     <!--<div id="app">-->
