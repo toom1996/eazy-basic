@@ -34,6 +34,7 @@
         <link rel="stylesheet" type="text/css" href="https://imgf2.pop-fashion.com/global/css/lists/common/list-common.css?2021111101">
         <link rel="stylesheet" type="text/css" href="https://imgf2.pop-fashion.com/global/css/lists/runway-list.css?2021111101">
         <?= $this->head() ?>
+
     </head>
     <body>
     <!--<div id="app">-->

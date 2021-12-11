@@ -1,10 +1,11 @@
 <?php
-
+$appPath = APP_PATH;
 return [
     'aliases' => [
-        '@controllers' => APP_PATH . '/controllers',
-        '@eazy' => APP_PATH . '/vendor/eazysoft/eazy-http/src',
-        '@app' => APP_PATH
+        '@controllers' => $appPath . '/controllers',
+        '@eazy' => $appPath . '/vendor/eazysoft/eazy-http/src',
+        '@app' => $appPath,
+        '@web' => $appPath . '/web',
     ],
     'components' => [
         'router' => [
