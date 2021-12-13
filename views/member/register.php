@@ -1,3 +1,4 @@
+<?php $this->title = 'register' ?>
 <div class="contant">
     <div class="main register">
         <div class="con_width">
@@ -73,3 +74,4 @@
         </div>
     </div>
 </div>
+<?php \eazy\http\web\View::registerCss('cssdddd') ?>

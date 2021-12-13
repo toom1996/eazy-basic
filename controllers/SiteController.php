@@ -7,6 +7,7 @@ use eazy\http\Eazy;
 use eazy\http\Module;
 use eazy\http\Router;
 use eazy\http\web\Controller;
+use Swoole\Http\Server;
 
 #[Router([
     ['xx', '/', 'aa', [Router::class]]
@@ -23,8 +24,7 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-//        $query = (Eazy::$component->db->createCommand("SELECT * FROM toom_config WHERE `key` = 'pc'")->cache()->queryOne());
-//        var_dump($query);
+        var_dump(Eazy::$component->request->queryString);
         return $this->view->render('@app/views/index');
 //        var_dump($query);
 //        return  $query[1] ?? '1';

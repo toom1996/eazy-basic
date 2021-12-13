@@ -1,9 +1,6 @@
 <?php
 $this->title = '123123';
 ?>
-<?php foreach ($query as $index => $item): ?>
-    <?= "{$index}->{$item}" ?>
-<?php endforeach; ?>
 <h1 style="display: none;">伦敦时装周_T台秀场</h1>
 <!-- header start -->
 

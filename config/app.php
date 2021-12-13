@@ -10,7 +10,7 @@ return [
     'components' => [
         'router' => [
             'route' => [
-                ['GET', '/', '@controllers/site/index'],
+                ['GET', '/{id:\d+}', '@controllers/site/index'],
                 // Group route.
                 '/member' => [
                     // set different routes to point to the same action.

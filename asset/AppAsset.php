@@ -16,7 +16,7 @@ class AppAsset extends AssetBundle
     public $basePath = '@web';
 
     public $css = [
-        '@web/assets/css/register.css'
+        'web/assets/css/register.css'
     ];
 
     public $js = [];

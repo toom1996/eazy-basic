@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use eazy\http\E;
 use eazy\http\Eazy;
 use eazy\http\web\Controller;
 
