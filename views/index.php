@@ -9,8 +9,6 @@ $this->title = '123123';
     <div class="head-top-static js-head-top clearfix">
         <div class="head-t-content clearfix">
             <div class="head-logo fl js-head-logo">
-                <a href="https://www.pop-fashion.com/" title="POP服装趋势"><img src="https://imgf2.pop-fashion.com/global/images/new_common/nav_logo.png?2020090202" alt="POP服装趋势"><i class="common-icon"></i></a>
-
                 <!-- 服装趋势下拉窗口切换页面 -->
                 <div class="allWeb">
                     <ul class="leftlists">
@@ -26,19 +24,17 @@ $this->title = '123123';
                     </ul>
                 </div>
             </div>
-            <div class="lang-contain js-leftT fl">
-                <a class="ch-lang" title="中文"><img src="https://imgf2.pop-fashion.com/global/images/new_common/flag.png"/><i class="common-icon"></i></a>
-                <div class="lang-list js-lang-list">
-                    <a href="https://www.popfashioninfo.com/" target="_blank" title="English"><em></em>English</a>
-                </div>
-            </div>
             <div class="user-contain fr">
                 <div class="user-box fl">
+                    <a href="https://www.baidu.com/my/index" id="user" class="username"><span class="s-top-img-wrapper"><img style="width: 30px;border-radius: 20px" src="https://himg.bdimg.com/sys/portraitn/item/public.1.a74a6ba3.4oIZIrLuTb2PPuIVIAfn6A"></span><span class="s-top-username">1023150697</span></a>
                     <a href='javascript:void(0);' class='loginLayer' rel="nofollow" title="登录"><span class="lg"></span>登录</a>
                     <i></i>
                     <a class="reg-btn" href="/member/register" rel="nofollow" title="注册"><span class="rg"></span>注册</a>
+                    <a class="btn btn-danger" href="#">
+                        <i class="fa fa-shopping-cart fa-lg"></i>
+                        <span class="product-count bg-black">01</span>
+                    </a>
                 </div>
-                <a href="javascript:void(0);" class="js-contact-qq-btn contact-btn" rel="nofollow">了解VIP</a>
             </div>
             <div class="function-contain con_width">
                 <div class="f-search-section clearfix">
@@ -1696,6 +1692,7 @@ $this->title = '123123';
 
 <script type="text/javascript">
     $(function(){
+        alert('111');
         // 异步加载筛选条件
         oPopStyles.loadSelectItems(3);
 
@@ -1711,14 +1708,3 @@ $this->title = '123123';
 
 
 <input id="brandAllInfo" type="hidden" data-time="2021112317" data-domain="https://imgf1.pop-fashion.com">
-
-
-<!-- 注册送好礼 start -->
-<!-- <div class="waikuang" id="qqpromotid" style='display:none;'>
-    <div class="waibg">
-        <a class="update_img" href="javascript:void(0);"><img alt="pic"></a>
-        <a class="close" href="javascript:void(0);"></a>
-        <a class="qq_btn js-contact-qq-btn" href="javascript:void(0);"></a>
-    </div>
-</div> -->
-<!-- 注册送好礼 end -->

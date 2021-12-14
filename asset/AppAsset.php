@@ -16,7 +16,8 @@ class AppAsset extends AssetBundle
     public $basePath = '@web';
 
     public $css = [
-        'web/assets/css/register.css'
+        'web/assets/css/common/main.css',
+        '//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
     ];
 
     public $js = [];

@@ -1,0 +1,40 @@
+.product-count{
+    position: absolute;
+    top: 10px;
+    right: -12px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+}
+
+.user-box .s-top-username {
+    display: inline-block;
+    max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    margin-left: 6px;
+}
+
+.user-box img {
+    width: 26px;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.user-box .username {
+    line-height: 24px;
+    /* font-size: 13px; */
+    margin: 6px 0 0 0;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    color: #222;
+}

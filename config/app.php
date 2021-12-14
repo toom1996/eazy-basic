@@ -6,6 +6,7 @@ return [
         '@eazy' => $appPath . '/vendor/eazysoft/eazy-http/src',
         '@app' => $appPath,
         '@web' => $appPath . '/web',
+        '@api' => $appPath . '/api',
     ],
     'components' => [
         'router' => [
@@ -16,6 +17,9 @@ return [
                     // set different routes to point to the same action.
                     ['GET', '/register', '@controllers/member/register']
                 ],
+                '/api/v1/store' => [
+                    ['GET', '/search', '@api/v1/controllers/store/search']
+                ]
             ]
         ],
         'db' => [

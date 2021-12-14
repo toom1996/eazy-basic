@@ -74,4 +74,4 @@
         </div>
     </div>
 </div>
-<?php \eazy\http\web\View::registerCss('cssdddd') ?>
+<?php \eazy\http\web\View::registerCss('/web/assets/css/register.css') ?>

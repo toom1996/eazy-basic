@@ -16,7 +16,7 @@ class SiteController extends Controller
 {
     public ?string $layout = '@app/views/layouts/main';
 
-    public function afterAction($action, $result)
+    public function afterAction($action, &$result)
     {
         echo __FUNCTION__;
         return false;
