@@ -3,6 +3,7 @@
 namespace app\api\v1\controllers;
 
 use eazy\api\Controller;
+use eazy\Eazy;
 
 class StoreController extends Controller
 {
@@ -10,7 +11,7 @@ class StoreController extends Controller
     {
         return [
             'code' => 200,
-            'msg' => 'xx',
+            'msg' => \eazy\http\Eazy::$component->request->get('wd'),
             'data' => '撒旦发射点发生打发士大夫'
         ];
     }

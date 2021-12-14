@@ -13,28 +13,20 @@
     color: #ffffff;
 }
 
-.user-box .s-top-username {
-    display: inline-block;
+.user-box .username {
+    /*display: inline-block;*/
     max-width: 100px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
-    margin-left: 6px;
+    margin-left: 5px;
 }
 
 .user-box img {
-    width: 26px;
-    border-radius: 20px;
+    width: 25px;
+    border-radius: 25px;
+    border: 1px solid #4e71f2;
     padding: 2px;
-}
-
-.user-box .username {
-    line-height: 24px;
-    /* font-size: 13px; */
-    margin: 6px 0 0 0;
-    display: inline-block;
-    vertical-align: top;
-    cursor: pointer;
-    color: #222;
+    vertical-align: middle;
 }

@@ -26,7 +26,9 @@ $this->title = '123123';
             </div>
             <div class="user-contain fr">
                 <div class="user-box fl">
-                    <a href="https://www.baidu.com/my/index" id="user" class="username"><span class="s-top-img-wrapper"><img style="width: 30px;border-radius: 20px" src="https://himg.bdimg.com/sys/portraitn/item/public.1.a74a6ba3.4oIZIrLuTb2PPuIVIAfn6A"></span><span class="s-top-username">1023150697</span></a>
+<!--                    <a href="https://www.baidu.com/my/index" id="user" class="username"><span class="s-top-img-wrapper"><img style="width: 30px;border-radius: 20px" src="https://himg.bdimg.com/sys/portraitn/item/public.1.a74a6ba3.4oIZIrLuTb2PPuIVIAfn6A"></span><span class="s-top-username">1023150697</span></a>-->
+                    <img src="https://himg.bdimg.com/sys/portraitn/item/public.1.a74a6ba3.4oIZIrLuTb2PPuIVIAfn6A">
+                    <a href='javascript:void(0);' class='username' rel="nofollow" title="登录"><span class="lg"></span>noooooooooooooob</a>
                     <a href='javascript:void(0);' class='loginLayer' rel="nofollow" title="登录"><span class="lg"></span>登录</a>
                     <i></i>
                     <a class="reg-btn" href="/member/register" rel="nofollow" title="注册"><span class="rg"></span>注册</a>
