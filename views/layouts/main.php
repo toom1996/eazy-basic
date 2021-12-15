@@ -37,27 +37,12 @@
 
     </head>
     <body>
-    <!--<div id="app">-->
-    <!--    <h1 v-if="awesome">Vue is awesome!</h1>-->
-    <!--    <h1 v-else>Oh no 😢</h1>-->
-    <!--    <div>-->
-    <!--        <b-spinner style="width: 3rem; height: 3rem;" label="Large Spinner"></b-spinner>-->
-    <!--        <b-spinner style="width: 3rem; height: 3rem;" label="Large Spinner" type="grow"></b-spinner>-->
-    <!--    </div>-->
-    <?= $content ?>
+    <div id="app">
+        <?= $content ?>
+    </div>
     <!--</div>-->
-    <script>
-        import { App } from '../../web/dist/bundle'
-        const app = Vue.createApp({
-            data() {
-                return { count: 4 }
-            }
-        })
-
-        const vm = app.mount('#app')
-
-        console.log(vm.count) // => 4
-    </script>
+    <script src="/web/vue/dist/vendor/commons.bundle.js"></script>
+    <script src="/web/vue/dist/site/index.bundle.js"></script>
     </body>
     </html>
 <?php $this->endPage() ?>

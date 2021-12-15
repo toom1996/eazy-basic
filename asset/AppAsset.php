@@ -20,7 +20,9 @@ class AppAsset extends AssetBundle
         '//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
     ];
 
-    public $js = [];
+    public $js = [
+//        'web/vue/src/main.js'
+    ];
 
 
     public $depends = [];

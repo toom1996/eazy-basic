@@ -12,14 +12,15 @@
     text-align: center;
     color: #ffffff;
 }
+.user-box .username-box {
+    display: inline-flex;
+}
 
 .user-box .username {
-    /*display: inline-block;*/
     max-width: 100px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
     margin-left: 5px;
 }
 
@@ -29,4 +30,15 @@
     border: 1px solid #4e71f2;
     padding: 2px;
     vertical-align: middle;
+}
+
+.header-top-static {
+    background-color: #fff;
+    height: 50px;
+    min-width: 1200px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 91;
 }

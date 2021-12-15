@@ -3,32 +3,15 @@ $this->title = '123123';
 ?>
 <h1 style="display: none;">伦敦时装周_T台秀场</h1>
 <!-- header start -->
-
-<!-- 导航改版 -->
-<div class="new_header new-header-section">
-    <div class="head-top-static js-head-top clearfix">
+<div class="header">
+    <div class="header-top-static">
         <div class="head-t-content clearfix">
-            <div class="head-logo fl js-head-logo">
-                <!-- 服装趋势下拉窗口切换页面 -->
-                <div class="allWeb">
-                    <ul class="leftlists">
-                        <li><a href="https://www.pop-fashion.com/" target="_blank" title="服装"><em class="common-icon fashion"></em>服装</a></li>
-                        <li><a href="http://www.pop-bags.com/" target="_blank" title="箱包"><em class="common-icon bag"></em>箱包</a></li>
-                        <li><a href="http://www.pop-shoe.com/" target="_blank" title="鞋子"><em class="common-icon shoe"></em>鞋子</a></li>
-                        <li><a href="http://www.51shoushi.com/" target="_blank" title="首饰"><em class="common-icon dec"></em>首饰</a></li>
-                        <li><a href="http://www.91jiafang.com/" target="_blank" title="家居"><em class="common-icon home"></em>家居</a></li>
-                        <li><a href="http://yuntu.pop136.com/" target="_blank" rel="nofollow" title="云图"><em class="common-icon yuntu"></em>云图</a></li>
-                        <li><a href="http://www.pop136.com/" target="_blank" rel="nofollow" title="官网"><em class="common-icon guanw"></em>官网</a></li>
-                        <li><a href="https://www.kuanok.com/" target="_blank" rel="nofollow" title="版圈"><em class="common-icon banquan"></em>版圈</a></li>
-                        <li><a href="http://www.popshejie.com/" target="_blank" rel="nofollow" title="设界"><em class="common-icon shejie"></em>设界</a></li>
-                    </ul>
-                </div>
-            </div>
             <div class="user-contain fr">
                 <div class="user-box fl">
-<!--                    <a href="https://www.baidu.com/my/index" id="user" class="username"><span class="s-top-img-wrapper"><img style="width: 30px;border-radius: 20px" src="https://himg.bdimg.com/sys/portraitn/item/public.1.a74a6ba3.4oIZIrLuTb2PPuIVIAfn6A"></span><span class="s-top-username">1023150697</span></a>-->
-                    <img src="https://himg.bdimg.com/sys/portraitn/item/public.1.a74a6ba3.4oIZIrLuTb2PPuIVIAfn6A">
-                    <a href='javascript:void(0);' class='username' rel="nofollow" title="登录"><span class="lg"></span>noooooooooooooob</a>
+                    <img src="https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJdL4RW29K1I61tU1FicKTARXcG9iaNCQHMhIBmTYkwxECG3UQWdkRQ4uvXj8dqWluVe4wCGkG0GbrQ/132">
+                    <div class='username-box'>
+                        <a href='javascript:void(0);' class="username">noooooooooooooooooooooooooob</a>
+                    </div>
                     <a href='javascript:void(0);' class='loginLayer' rel="nofollow" title="登录"><span class="lg"></span>登录</a>
                     <i></i>
                     <a class="reg-btn" href="/member/register" rel="nofollow" title="注册"><span class="rg"></span>注册</a>
@@ -66,61 +49,6 @@ $this->title = '123123';
                     <a class="find-color" href="/Colorsearch/" title="色彩搜图"><i class="common-icon mutual_icon"></i>色彩搜图</a>
                     <span></span>
                     <a class="find-camera js-figure-btn" href="javascript:void(0);" title="以图搜图"><i class="common-icon mutual_icon"></i>以图搜图</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- 滚动悬浮（色彩数据） -->
-    <div class="head-top-static head-top-fixed clearfix js-head-top-fixed">
-        <div class="head-t-content clearfix">
-            <div class="head-logo fl js-head-logo">
-                <a href="https://www.pop-fashion.com/" title="POP服装趋势"><img src="https://imgf2.pop-fashion.com/global/images/new_common/c_nav_logo.png" alt="POP服装趋势"><i class="common-icon"></i></a>
-                <div class="allWeb">
-                    <ul class="leftlists">
-                        <li><a href="https://www.pop-fashion.com/" target="_blank" title="服装"><em class="common-icon fashion"></em>服装</a></li>
-                        <li><a href="http://www.pop-bags.com/" target="_blank" title="箱包"><em class="common-icon bag"></em>箱包</a></li>
-                        <li><a href="http://www.pop-shoe.com/" target="_blank" title="鞋子"><em class="common-icon shoe"></em>鞋子</a></li>
-                        <li><a href="http://www.51shoushi.com/" target="_blank" title="首饰"><em class="common-icon dec"></em>首饰</a></li>
-                        <li><a href="http://www.91jiafang.com/" target="_blank" title="家纺"><em class="common-icon home"></em>家纺</a></li>
-                        <li><a href="http://yuntu.pop136.com/" target="_blank" rel="nofollow" title="云图"><em class="common-icon yuntu"></em>云图</a></li>
-                        <li><a href="http://www.pop136.com/" target="_blank" rel="nofollow" title="官网"><em class="common-icon guanw"></em>官网</a></li>
-                        <li><a href="https://www.kuanok.com/" target="_blank" rel="nofollow" title="版圈"><em class="common-icon banquan"></em>版圈</a></li>
-                        <li><a href="http://www.popshejie.com/" target="_blank" rel="nofollow" title="设界"><em class="common-icon shejie"></em>设界</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="user-contain fr">
-                <div class="user-box fl">
-                    <a href='javascript:void(0);' class='loginLayer' rel="nofollow" title="登录"><span class="lg"></span>登录</a>
-                    <i></i>
-                    <a class="reg-btn" href="/member/register" rel="nofollow" title="注册"><span class="rg"></span>注册</a>
-                </div>
-                <a href="javascript:void(0);" class="js-contact-qq-btn contact-btn" rel="nofollow">了解VIP</a>
-            </div>
-            <div class="function-contain con_width">
-                <div class="f-search-section clearfix">
-                    <div class="f-search-input js-search-box fl">
-                        <div class="js-all-input-contain">
-                            <input type="text" class="Itext input-Itext js-Itext" placeholder="时尚资讯一网打尽" growing-track="true" value="">
-                            <input class="search-btn js-search-btn common-icon" type="button">
-                            <div class="search_listDown">
-                                <div class="menu"></div>
-                                <div class="hot-menu">
-                                    <div class="menu-hot-list">
-                                        <div class="label js-history-label">历史记录<div class="fr"><span class="operat js-clear-operat">清除记录</span></div></div>
-                                        <ul class="history-list"></ul>
-                                        <div class="label">热门搜索</div>
-                                        <ul class="hot-list"></ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="f-find-box">
-                    <a class="find-color" href="/Colorsearch/" title="色彩搜图"><i class="common-icon"></i>色彩搜图</a>
-                    <span></span>
-                    <a class="find-camera js-figure-btn" href="javascript:void(0);" title="以图搜图"><i class="common-icon"></i>以图搜图</a>
                 </div>
             </div>
         </div>
@@ -434,9 +362,6 @@ $this->title = '123123';
                             </ul>
                         </div>
                     </li>
-                    <li class="nl_hover banquan">
-                        <a class="nl_a" href="https://www.kuanok.com/" target="_blank">作品存证</a>
-                    </li>
                 </ul>
             </div>
             <ul class="new_nav_content js-new_nav_content w0">
@@ -509,11 +434,8 @@ $this->title = '123123';
             </ul>
         </div>
     </div>
-    <input type="hidden" id="remind-time" value=""/>
-    <div class="contentW">
-    </div>
 </div>
-
+<!-- header end -->
 <!-- 侧边绑定手机号 -->
 <div class="bindPhone js-open-quick-login open-quick-login"></div>
 
@@ -1632,47 +1554,47 @@ $this->title = '123123';
 </div>
 <!-- 共用js -->
 
-<script type="text/javascript" src="https://imgf1.pop-fashion.com/global/js/common/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/perfect-scrollbar.js"></script>
-<!--[if lte IE 8]>
-<script type="text/javascript">
-    var is_lte_ie8=true;
-</script>
-<![endif]-->
-
-<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/common/jquery.cookie.js"></script>
-<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/common/pop-msg-1.2.js"></script>
-<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/common/Lazyload.js"></script>
-<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/common/jquery-ui.min.js"></script>
-<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/common/jquery.form.min.js"></script>
-<script type="text/javascript" src="https://imgf1.pop-fashion.com/global/js/common/jquery.mousewheel.js"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/jquery.masonry.min.js"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/layer/layer.js"></script>
-<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/common/drag-slide.js"></script>
-<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/user/login.js?2021111101"></script>
-<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/fashion/jquery.mCustomScrollbar.concat.min.js"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/lib/Jcrop/jquery.Jcrop.min.js"></script>
-
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/common.js?2021111101"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/common/new_common.js?2021111101"></script>
-
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/lib/gt.js"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/lists/common/download_bags.js?2021111101"></script>
-<script>
-    // 统计参数token
-    var statistics_token = "f5070aebc5ae834e50e800de519938d6";
-
-    var P_UserId = '';//当前登录用户ID(PS:可能是主ID,也可能是子用户ID)
-    var P_UserType = '5';//用户权限类型VIP、游客、还是试用
-    var P_AccountType = '';//用户主、子类型
-    var P_AccountId = '';//主账号ID
-    var P_Collect = parseInt('0');
-    var pid = '' || '';// 渠道代码
-    var static_url = 'https://imgf2.pop-fashion.com';
-    var is_relate = '';                  //是否是个性化页面
-    var columnId = '3';
-    var layerUserInfo = '0';   //电子合同
-</script>
+<!--<script type="text/javascript" src="https://imgf1.pop-fashion.com/global/js/common/jquery-1.9.1.min.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/perfect-scrollbar.js"></script>-->
+<!--<!--[if lte IE 8]>-->
+<!--<script type="text/javascript">-->
+<!--    var is_lte_ie8=true;-->
+<!--</script>-->
+<!--<![endif]-->-->
+<!---->
+<!--<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/common/jquery.cookie.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/common/pop-msg-1.2.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/common/Lazyload.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/common/jquery-ui.min.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/common/jquery.form.min.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf1.pop-fashion.com/global/js/common/jquery.mousewheel.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/jquery.masonry.min.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/layer/layer.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/common/drag-slide.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/user/login.js?2021111101"></script>-->
+<!--<script type="text/javascript" src="https://imgf2.pop-fashion.com/global/js/fashion/jquery.mCustomScrollbar.concat.min.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/lib/Jcrop/jquery.Jcrop.min.js"></script>-->
+<!---->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/common.js?2021111101"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/common/new_common.js?2021111101"></script>-->
+<!---->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/lib/gt.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/lists/common/download_bags.js?2021111101"></script>-->
+<!--<script>-->
+<!--    // 统计参数token-->
+<!--    var statistics_token = "f5070aebc5ae834e50e800de519938d6";-->
+<!---->
+<!--    var P_UserId = '';//当前登录用户ID(PS:可能是主ID,也可能是子用户ID)-->
+<!--    var P_UserType = '5';//用户权限类型VIP、游客、还是试用-->
+<!--    var P_AccountType = '';//用户主、子类型-->
+<!--    var P_AccountId = '';//主账号ID-->
+<!--    var P_Collect = parseInt('0');-->
+<!--    var pid = '' || '';// 渠道代码-->
+<!--    var static_url = 'https://imgf2.pop-fashion.com';-->
+<!--    var is_relate = '';                  //是否是个性化页面-->
+<!--    var columnId = '3';-->
+<!--    var layerUserInfo = '0';   //电子合同-->
+<!--</script>-->
 
 
 
@@ -1680,33 +1602,35 @@ $this->title = '123123';
 
 
 
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/styles.js?2021111101"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/Column3_Brand.js?2021112317"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/util_brand.js?2021111101"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/common/template.js"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/regionFromSolr.js?2021112317"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/regionAction.js?2021111101"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/common/banner-slide.js?2021111101"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/lists/list-common.js?2021111101"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/lib/laypage/laypage.js"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/lists/runways-list.js?2021111101"></script>
-<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/sem_phone/sem_phone.js?2021111101"></script>
-
-<script type="text/javascript">
-    $(function(){
-        alert('111');
-        // 异步加载筛选条件
-        oPopStyles.loadSelectItems(3);
-
-        $(".lazyload img").lazyload({effect : "fadeIn"});
-
-        $('.active_click').on('click',function(e){
-            $(this).parent().prev('a').triggerHandler('click');
-        });
-    });
-</script>
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/styles.js?2021111101"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/Column3_Brand.js?2021112317"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/util_brand.js?2021111101"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/common/template.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/regionFromSolr.js?2021112317"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/fashion/regionAction.js?2021111101"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/common/banner-slide.js?2021111101"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/lists/list-common.js?2021111101"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/lib/laypage/laypage.js"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/lists/runways-list.js?2021111101"></script>-->
+<!--<script type="text/javascript" src="https://imgf3.pop-fashion.com/global/js/sem_phone/sem_phone.js?2021111101"></script>-->
+<!---->
+<!--<script type="text/javascript">-->
+<!--    $(function(){-->
+<!--        // 异步加载筛选条件-->
+<!--        oPopStyles.loadSelectItems(3);-->
+<!---->
+<!--        $(".lazyload img").lazyload({effect : "fadeIn"});-->
+<!---->
+<!--        $('.active_click').on('click',function(e){-->
+<!--            $(this).parent().prev('a').triggerHandler('click');-->
+<!--        });-->
+<!--    });-->
+<!--</script>-->
 
 
 
 
 <input id="brandAllInfo" type="hidden" data-time="2021112317" data-domain="https://imgf1.pop-fashion.com">
+<?php \eazy\http\web\View::registerJs('/web/assets/js/nav.js') ?>
+<?php //\eazy\http\web\View::registerJs('/web/vue/dist/vendor/commons.bundle.js') ?>
+<?php //\eazy\http\web\View::registerJs('/web/vue/dist/site/index.bundle.js') ?>
