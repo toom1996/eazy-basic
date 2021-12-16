@@ -24,11 +24,8 @@
         <link rel="stylesheet" type="text/css" href="https://imgf2.pop-fashion.com/global/css/reset.css">
         <link rel="stylesheet" type="text/css" href="https://imgf3.pop-fashion.com/global/css/common.css?2021111101">
         <link rel="stylesheet" type="text/css" href="https://imgf3.pop-fashion.com/global/css/common/new_common.css?2021111101">
-        <link rel="stylesheet" type="text/css" href="https://imgf3.pop-fashion.com/global/css/lib/Jcrop/jquery.Jcrop.min.css">
         <link rel="stylesheet" type="text/css" href="https://imgf2.pop-fashion.com/global/css/global.css?2021111101">
-        <link rel="stylesheet" type="text/css" href="https://imgf2.pop-fashion.com/global/css/perfect-scrollbar.css">
         <link rel="stylesheet" type="text/css" href="https://imgf2.pop-fashion.com/global/css/common/drag.css">
-        <link rel="stylesheet" type="text/css" href="https://imgf2.pop-fashion.com/global/css/jquery.mCustomScrollbar.css">
 
         <link rel="stylesheet" type="text/css" href="https://imgf2.pop-fashion.com/global/css/pop_layer.css?2021111101">
         <link rel="stylesheet" type="text/css" href="https://imgf2.pop-fashion.com/global/css/lists/common/list-common.css?2021111101">
@@ -37,12 +34,13 @@
 
     </head>
     <body>
-    <div id="app">
+    <div id="app" class="container">
         <?= $content ?>
     </div>
     <!--</div>-->
     <script src="/web/vue/dist/vendor/commons.bundle.js"></script>
     <script src="/web/vue/dist/site/index.bundle.js"></script>
+<!--    <script src="/web/vue/dist/widgets/headers/mainHeader.bundle.js"></script>-->
     </body>
     </html>
 <?php $this->endPage() ?>

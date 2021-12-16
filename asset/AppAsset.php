@@ -17,7 +17,8 @@ class AppAsset extends AssetBundle
 
     public $css = [
         'web/assets/css/common/main.css',
-        '//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+        'https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap-grid.min.css'
+//        '//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
     ];
 
     public $js = [

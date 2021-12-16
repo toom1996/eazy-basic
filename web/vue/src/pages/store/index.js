@@ -6,20 +6,28 @@ App({
         return {
             searchData: {
                 wd: getQueryVariable('wd')
-            }
+            },
+            showSkeleton: false, // 骨架图
+            listData: [],
         }
     },
     created() {
-        storeSearch(this.searchData)
-        alert('111111111111111')
+        if (this.searchData.wd !== undefined) {
+            this.search()
+        }
     },
     mounted() {
-        alert('22222222222')
     },
     watch : {
 
     },
     methods: {
-
+        search(){
+            console.log(this.searchData)
+            storeSearch(this.searchData).then((e) => {
+                console.log(e.code)
+                this.listData = e.data
+            }).catch()
+        }
     }
 }).mount('#app');

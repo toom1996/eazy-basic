@@ -6,6 +6,10 @@ module.exports = {
             import: './src/pages/store/index.js',
             dependOn: ['/vendor/commons']
         },
+        '/widgets/headers/mainHeader': {
+            import: './src/widgets/headers/mainHeader.js',
+            dependOn: ['/vendor/commons']
+        },
         // steeper: ['./src/plugins/steeper'],
         '/vendor/commons': [
             './src/main.js',

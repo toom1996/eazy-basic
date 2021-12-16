@@ -42,3 +42,45 @@
     top: 0;
     z-index: 91;
 }
+
+/*list*/
+.list .list-box .ul-skeleton {
+    /*list-style: none;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*width: auto;*/
+}
+
+.list .list-box .ul-skeleton .skeleton-item {
+    /*width: 300px;*/
+    /*height: 300px;*/
+    float: left;
+    border: 1px solid #eee;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.list .list-box .ul-skeleton .skeleton-item .title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1C232B;
+    line-height: 24px;
+    margin-bottom: 8px;
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/*@media screen and (min-width: 1500px) {*/
+/*    !* #anchor{top: 226px;} *!*/
+/*    !*子栏目导航*!*/
+/*    !*.list-nav-r{width: 1120px;height: 110px;margin-top: 20px;}*!*/
+/*    !*.list-nav-r>ul>li>a{height: 88px;padding-top: 22px;}*!*/
+/*    !*.list-nav-r>ul>li>a>p{font-size: 16px;}*!*/
+
+/*    !*T台列表*!*/
+/*    !*.runways{margin-left:-22px;}*!*/
+/*    .list .list-box .ul-skeleton .skeleton-item{width:20%;margin-left:22px;}*/
+
+/*}*/
