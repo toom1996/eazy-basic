@@ -1,5 +1,5 @@
-<div class="header" id="header">
-    <div class="header-top-static">
+<div class="new_header new-header-section">
+    <div class="head-top-static js-head-top clearfix" style="left: 0px; width: 100%;">
         <div class="head-t-content clearfix">
             <div class="user-contain fr">
                 <div class="user-box fl">
@@ -10,11 +10,8 @@
                     <a href='javascript:void(0);' class='loginLayer' rel="nofollow" title="登录"><span class="lg"></span>登录</a>
                     <i></i>
                     <a class="reg-btn" href="/member/register" rel="nofollow" title="注册"><span class="rg"></span>注册</a>
-                    <a class="btn btn-danger" href="#">
-                        <i class="fa fa-shopping-cart fa-lg"></i>
-                        <span class="product-count bg-black">01</span>
-                    </a>
                 </div>
+                <a href="javascript:void(0);" class="js-contact-qq-btn contact-btn" rel="nofollow">了解VIP</a>
             </div>
             <div class="function-contain con_width">
                 <div class="f-search-section clearfix">
@@ -27,13 +24,13 @@
                             <input v-model="searchData.wd" type="text" class="Itext input-Itext js-Itext" growing-track="true" placeholder="在本页面搜索你想要的…" style="padding-left:127px;" data-type="column" >
                             <input  @click="search" class="search-btn js-search-btn common-icon" type="button">
                             <div class="search_listDown">
-                                <div class="menu"></div>
+                                <div class="menu"><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0" style="display: none;"></ul></div>
                                 <div class="hot-menu">
-                                    <div class="menu-hot-list">
+                                    <div class="menu-hot-list" style="display: none;">
                                         <div class="label js-history-label">历史记录<div class="fr"><span class="operat js-clear-operat">清除记录</span></div></div>
-                                        <ul class="history-list"></ul>
+                                        <ul class="history-list"><li class="ui-menu-item" data-label="121212">121212<div class="fr"><i class="his-clear"></i></div></li></ul>
                                         <div class="label">热门搜索</div>
-                                        <ul class="hot-list"></ul>
+                                        <ul class="hot-list"><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li></ul>
                                     </div>
                                 </div>
                             </div>
@@ -48,13 +45,68 @@
             </div>
         </div>
     </div>
+    <!-- 滚动悬浮（色彩数据） -->
+    <div class="head-top-static head-top-fixed clearfix js-head-top-fixed" style="left: 0px; width: 100%;">
+        <div class="head-t-content clearfix">
+            <div class="head-logo fl js-head-logo">
+                <a href="https://www.pop-fashion.com/" title="POP服装趋势"><img src="https://imgf2.pop-fashion.com/global/images/new_common/c_nav_logo.png" alt="POP服装趋势"><i class="common-icon"></i></a>
+                <div class="allWeb" style="display: none;">
+                    <ul class="leftlists">
+                        <li><a href="https://www.pop-fashion.com/" target="_blank" title="服装"><em class="common-icon fashion"></em>服装</a></li>
+                        <li><a href="http://www.pop-bags.com/" target="_blank" title="箱包"><em class="common-icon bag"></em>箱包</a></li>
+                        <li><a href="http://www.pop-shoe.com/" target="_blank" title="鞋子"><em class="common-icon shoe"></em>鞋子</a></li>
+                        <li><a href="http://www.51shoushi.com/" target="_blank" title="首饰"><em class="common-icon dec"></em>首饰</a></li>
+                        <li><a href="http://www.91jiafang.com/" target="_blank" title="家纺"><em class="common-icon home"></em>家纺</a></li>
+                        <li><a href="http://yuntu.pop136.com/" target="_blank" rel="nofollow" title="云图"><em class="common-icon yuntu"></em>云图</a></li>
+                        <li><a href="http://www.pop136.com/" target="_blank" rel="nofollow" title="官网"><em class="common-icon guanw"></em>官网</a></li>
+                        <li><a href="https://www.kuanok.com/" target="_blank" rel="nofollow" title="版圈"><em class="common-icon banquan"></em>版圈</a></li>
+                        <li><a href="http://www.popshejie.com/" target="_blank" rel="nofollow" title="设界"><em class="common-icon shejie"></em>设界</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="user-contain fr">
+                <div class="user-box fl">
+                    <a href="javascript:void(0);" class="loginLayer" rel="nofollow" title="登录"><span class="lg"></span>登录</a>
+                    <i></i>
+                    <a class="reg-btn" href="/member/register/" rel="nofollow" title="注册"><span class="rg"></span>注册</a>
+                </div>
+                <a href="javascript:void(0);" class="js-contact-qq-btn contact-btn" rel="nofollow">了解VIP</a>
+            </div>
+            <div class="function-contain con_width">
+                <div class="f-search-section clearfix">
+                    <div class="f-search-input js-search-box fl">
+                        <div class="js-all-input-contain">
+                            <input type="text" class="Itext input-Itext js-Itext ui-autocomplete-input" placeholder="时尚资讯一网打尽" growing-track="true" value="" autocomplete="off">
+                            <input class="search-btn js-search-btn common-icon" type="button">
+                            <div class="search_listDown">
+                                <div class="menu"><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-2" tabindex="0" style="display: none;"></ul></div>
+                                <div class="hot-menu">
+                                    <div class="menu-hot-list" style="display: none;">
+                                        <div class="label js-history-label">历史记录<div class="fr"><span class="operat js-clear-operat">清除记录</span></div></div>
+                                        <ul class="history-list"><li class="ui-menu-item" data-label="121212">121212<div class="fr"><i class="his-clear"></i></div></li></ul>
+                                        <div class="label">热门搜索</div>
+                                        <ul class="hot-list"><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li><li class="ui-menu-item" data-label="暂无数据"><i class="serial"></i>暂无数据</li></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="f-find-box">
+                    <a class="find-color" href="/Colorsearch/" title="色彩搜图"><i class="common-icon"></i>色彩搜图</a>
+                    <span></span>
+                    <a class="find-camera js-figure-btn" href="javascript:void(0);" title="以图搜图"><i class="common-icon"></i>以图搜图</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="new_nav_box js-new_nav_box">
         <div class="contentNew clearfix">
             <div class="new_lanmu">
                 <ul class="clearfix">
                     <li class="nl_hover all-nav-li js-all-nav-li">
                         <a href="javascript:void(0);" class="common-icon"></a>
-                        <div class="dropdown-column-list">
+                        <div class="dropdown-column-list" style="display: none;">
                             <div class="clearfix">
                                 <label class="fl">
                                     <a href="javascript:void(0);">未来趋势</a>
@@ -66,7 +118,7 @@
                                     <a href="/trends/craft/" target="_blank">细节工艺</a>
                                     <a href="/trends/material/" target="_blank">面辅料趋势</a>
                                     <a href="/trends/silhouette/" target="_blank">廓形趋势</a>
-                                    <a href="/trends/design/" target="_blank"> 企划组货</a>
+                                    <a href="/trends/design/" target="_blank">设计企划</a>
                                     <a href="/inspiration/" target="_blank">灵感源</a>
                                 </div>
                             </div>
@@ -167,7 +219,7 @@
                                 </label>
                                 <div class="fl">
                                     <a href="/smarttrends/colordata/" target="_blank">色彩数据分析</a>
-                                    <a href="https://yuntu.pop136.com/" target="_blank">2D&3D试衣</a>
+                                    <a href="https://yuntu.pop136.com/" target="_blank">2D&amp;3D试衣</a>
                                     <a href="/smarttrends/topstyles/" target="_blank">TOP款式热榜</a>
                                     <a href="/Colorsearch/" target="_blank">色彩搜图</a>
                                     <a href="/picmatch/similarpic/" target="_blank">以图搜图</a>
@@ -217,12 +269,12 @@
                                 <li><a href="/trends/material/" title="面辅料趋势">面辅料趋势</a></li>
                                 <li><a href="/trends/craft/" title="细节工艺">细节工艺</a></li>
                                 <li><a href="/trends/silhouette/" title="廓形趋势">廓形趋势</a></li>
-                                <li><a href="/trends/design/" title="企划/组货">企划/组货</a></li>
+                                <li><a href="/trends/design/" title="设计企划">设计企划</a></li>
                                 <li><a href="/trends/capsules/" title="快反应">快反应</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li class="nl_hover has_down ">
+                    <li class="nl_hover has_down selected">
                         <a class="nl_a" href="/analysis/" title="流行分析">流行分析</a>
                         <div class="downlist_box">
                             <ul>
@@ -235,7 +287,7 @@
                                 <li><a href="/analysis/market/" title="市场分析">市场分析</a></li>
                                 <li><a href="/analysis/fabricanalysis/" title="面料分析">面料分析</a></li>
                                 <li><a href="/analysis/fairs/" title="展会分析">展会分析</a></li>
-                                <li><a href="/analysis/trendsetters/" title="明星&街拍分析">明星&街拍分析</a></li>
+                                <li><a href="/analysis/trendsetters/" title="明星&amp;街拍分析">明星&amp;街拍分析</a></li>
                             </ul>
                         </div>
                     </li>
@@ -267,7 +319,7 @@
                             </ul>
                         </div> -->
                     </li>
-                    <li class="nl_hover has_down selected">
+                    <li class="nl_hover has_down ">
                         <a class="nl_a" href="/runways/" title="T台">T台</a>
                         <div class="downlist_box">
                             <ul>
@@ -340,8 +392,8 @@
                     <li class="nl_hover has_down intelligent">
                         <a class="nl_a" href="/smarttrends/" title="智能+">
                             <span class="js-intelligent-gif">
-                                                                <img class="png" src="https://imgf2.pop-fashion.com/global/images/color_data/intelligent.png?2021111101" alt="">
-                                <img class="gif" src="https://imgf2.pop-fashion.com/global/images/color_data/intelligent.gif?2021111101" alt="">
+                                                                <img class="png" src="https://imgf2.pop-fashion.com/global/images/color_data/intelligent.png?2021121302" alt="">
+                                <img class="gif" src="https://imgf2.pop-fashion.com/global/images/color_data/intelligent.gif?2021121302" alt="">
                                                             </span>
                         </a>
                         <div class="downlist_box">
@@ -357,70 +409,73 @@
                             </ul>
                         </div>
                     </li>
+                    <li class="nl_hover banquan">
+                        <a class="nl_a" href="https://www.kuanok.com/" target="_blank">作品存证</a>
+                    </li>
                 </ul>
             </div>
-            <ul class="new_nav_content js-new_nav_content w0">
+            <ul class="new_nav_content js-new_nav_content w0" style="height: 1419px;">
                 <li data-nav="patterns">
-                    <img class="nav_bg fade-up" data-delay='1' src="https://imgf2.pop-fashion.com/global/images/new_common/nav_img.png?2021111101" alt="">
+                    <img class="nav_bg fade-up" data-delay="1" src="https://imgf2.pop-fashion.com/global/images/new_common/nav_img.png?2021121302" alt="">
                     <div class="nav_table clearfix">
                         <div class="nav_section">
-                            <div class="title fade-up" data-delay='1' data-en="TREND">图案趋势</div>
+                            <div class="title fade-up" data-delay="1" data-en="TREND">图案趋势</div>
                             <ul class="nav_items clearfix">
                                 <li>
-                                    <div class="fade-up" data-delay='2'><a class="tit" href="/trends/pattern/relt_173/#anchor" target="_blank"><span class="route-link">图案趋势</span></a></div>
-                                    <div class="fade-up" data-delay='3'><a href="/trends/pattern/?key=%25E5%2589%258D%25E7%259E%25BB%25E5%259B%25BE%25E6%25A1%2588%25E8%25B6%258B%25E5%258A%25BF#anchor" target="_blank"><span>前瞻趋势</span></a></div>
-                                    <div class="fade-up" data-delay='4'><a href="/trends/pattern/trd_12372/#anchor" target="_blank"><span>应用趋势</span></a></div>
-                                    <div class="fade-up" data-delay='5'><a href="/trends/pattern/?key=%25E5%259B%25BE%25E6%25A1%2588%25E5%25BF%25AB%25E5%258F%258D#anchor" target="_blank"><span>图案快反</span></a></div>
-                                    <div class="fade-up" data-delay='6'><a href="/trends/pattern/trd_12372/?key=%25E5%259B%25BE%25E6%25A1%2588%25E8%2589%25BA%25E6%259C%25AF%25E5%25AE%25B6%25E6%258E%25A8%25E8%258D%2590#anchor" target="_blank"><span>艺术家</span></a></div>
+                                    <div class="fade-up" data-delay="2"><a class="tit" href="/trends/pattern/relt_173/#anchor" target="_blank"><span class="route-link">图案趋势</span></a></div>
+                                    <div class="fade-up" data-delay="3"><a href="/trends/pattern/?key=%25E5%2589%258D%25E7%259E%25BB%25E5%259B%25BE%25E6%25A1%2588%25E8%25B6%258B%25E5%258A%25BF#anchor" target="_blank"><span>前瞻趋势</span></a></div>
+                                    <div class="fade-up" data-delay="4"><a href="/trends/pattern/trd_12372/#anchor" target="_blank"><span>应用趋势</span></a></div>
+                                    <div class="fade-up" data-delay="5"><a href="/trends/pattern/?key=%25E5%259B%25BE%25E6%25A1%2588%25E5%25BF%25AB%25E5%258F%258D#anchor" target="_blank"><span>图案快反</span></a></div>
+                                    <div class="fade-up" data-delay="6"><a href="/trends/pattern/trd_12372/?key=%25E5%259B%25BE%25E6%25A1%2588%25E8%2589%25BA%25E6%259C%25AF%25E5%25AE%25B6%25E6%258E%25A8%25E8%258D%2590#anchor" target="_blank"><span>艺术家</span></a></div>
                                 </li>
                                 <li>
-                                    <div class="fade-up" data-delay='2'><a class="tit" href="/trends/pattern/trd_12373/#anchor" target="_blank"><span>图案工艺</span></a></div>
-                                    <div class="fade-up" data-delay='3'><a href="/trends/pattern/trd_12373/#anchor" target="_blank"><span>工艺趋势</span></a></div>
-                                    <div class="fade-up" data-delay='4'><a href="/trends/pattern/trd_12373/?key=%25E5%2588%25BA%25E7%25BB%25A3#anchor" target="_blank"><span>刺绣趋势</span></a></div>
+                                    <div class="fade-up" data-delay="2"><a class="tit" href="/trends/pattern/trd_12373/#anchor" target="_blank"><span>图案工艺</span></a></div>
+                                    <div class="fade-up" data-delay="3"><a href="/trends/pattern/trd_12373/#anchor" target="_blank"><span>工艺趋势</span></a></div>
+                                    <div class="fade-up" data-delay="4"><a href="/trends/pattern/trd_12373/?key=%25E5%2588%25BA%25E7%25BB%25A3#anchor" target="_blank"><span>刺绣趋势</span></a></div>
                                 </li>
                                 <li>
-                                    <div class="fade-up" data-delay='2'><a class="tit" href="/analysis/man_12413/#anchor" target="_blank"><span>图案分析</span></a></div>
-                                    <div class="fade-up" data-delay='3'><a href="/analysis/tops/man_12413/#anchor" target="_blank"><span>图案TOP市场分析</span></a></div>
-                                    <div class="fade-up" data-delay='4'><a href="/analysis/runways/man_12413/#anchor" target="_blank"><span>T台图案分析</span></a></div>
+                                    <div class="fade-up" data-delay="2"><a class="tit" href="/analysis/man_12413/#anchor" target="_blank"><span>图案分析</span></a></div>
+                                    <div class="fade-up" data-delay="3"><a href="/analysis/tops/man_12413/#anchor" target="_blank"><span>图案TOP市场分析</span></a></div>
+                                    <div class="fade-up" data-delay="4"><a href="/analysis/runways/man_12413/#anchor" target="_blank"><span>T台图案分析</span></a></div>
                                 </li>
                             </ul>
                         </div>
                         <div class="nav_section">
-                            <div class="vline fade-up" data-delay='1'></div>
-                            <div class="title fade-up" data-delay='1' data-en="PATTERN">图案素材</div>
+                            <div class="vline fade-up" data-delay="1"></div>
+                            <div class="title fade-up" data-delay="1" data-en="PATTERN">图案素材</div>
                             <ul class="nav_items clearfix">
                                 <li>
-                                    <div class="fade-up" data-delay='2'><a class="tit" href="/patterns/graphics/for_10961/#anchor" target="_blank"><span>矢量素材</span></a></div>
-                                    <div class="fade-up" data-delay='3'><a href="/patterns/graphics/?key=%25E5%2585%25AC%25E7%2589%2588#anchor" target="_blank"><span>公版</span></a></div>
-                                    <div class="fade-up" data-delay='4'><a href="/patterns/graphics/?key=%25E5%258E%259F%25E5%2588%259B#anchor" target="_blank"><span>原创</span></a></div>
+                                    <div class="fade-up" data-delay="2"><a class="tit" href="/patterns/graphics/for_10961/#anchor" target="_blank"><span>矢量素材</span></a></div>
+                                    <div class="fade-up" data-delay="3"><a href="/patterns/graphics/?key=%25E5%2585%25AC%25E7%2589%2588#anchor" target="_blank"><span>公版</span></a></div>
+                                    <div class="fade-up" data-delay="4"><a href="/patterns/graphics/?key=%25E5%258E%259F%25E5%2588%259B#anchor" target="_blank"><span>原创</span></a></div>
                                 </li>
                                 <li>
-                                    <div class="fade-up" data-delay='2'><a class="tit" href="/patterns/graphics/for_15381/#anchor" target="_blank"><span>高清位图</span></a></div>
-                                    <div class="fade-up" data-delay='3'><a href="/patterns/graphics/?key=%25E8%2589%25BA%25E6%259C%25AF%25E5%25AE%25B6#anchor" target="_blank"><span>艺术家</span></a></div>
-                                    <div class="fade-up" data-delay='4'><a href="/patterns/graphics/?key=%25E6%2589%258B%25E7%25BB%2598%25E5%259B%25BE%25E8%25B0%25B1#anchor" target="_blank"><span>手绘图谱</span></a></div>
-                                    <div class="fade-up" data-delay='5'><a href="/patterns/graphics/?key=ins#anchor" target="_blank"><span>ins图</span></a></div>
+                                    <div class="fade-up" data-delay="2"><a class="tit" href="/patterns/graphics/for_15381/#anchor" target="_blank"><span>高清位图</span></a></div>
+                                    <div class="fade-up" data-delay="3"><a href="/patterns/graphics/?key=%25E8%2589%25BA%25E6%259C%25AF%25E5%25AE%25B6#anchor" target="_blank"><span>艺术家</span></a></div>
+                                    <div class="fade-up" data-delay="4"><a href="/patterns/graphics/?key=%25E6%2589%258B%25E7%25BB%2598%25E5%259B%25BE%25E8%25B0%25B1#anchor" target="_blank"><span>手绘图谱</span></a></div>
+                                    <div class="fade-up" data-delay="5"><a href="/patterns/graphics/?key=ins#anchor" target="_blank"><span>ins图</span></a></div>
                                 </li>
                                 <li>
-                                    <div class="fade-up" data-delay='2'><a class="tit" href="/patterns/topbrands/" target="_blank"><span>大牌花型</span></a></div>
-                                    <div class="fade-up" data-delay='3'><a href="/patterns/topbrands/?key=%25E5%25A4%25A7%25E7%2589%258C%25E8%25A1%258D%25E4%25BC%25B8#anchor" target="_blank"><span>大牌衍伸</span></a></div>
-                                    <div class="fade-up" data-delay='4'><a href="/patterns/topbrands/?key=Dior#anchor" target="_blank"><span>Dior</span></a></div>
-                                    <div class="fade-up" data-delay='5'><a href="/patterns/topbrands/bra_135757/gen_0/#anchor" target="_blank"><span>Louis Vuitton</span></a></div>
-                                    <div class="fade-up" data-delay='6'><a href="/patterns/topbrands/bra_82445/gen_0/#anchor" target="_blank"><span>Gucci</span></a></div>
+                                    <div class="fade-up" data-delay="2"><a class="tit" href="/patterns/topbrands/" target="_blank"><span>大牌花型</span></a></div>
+                                    <div class="fade-up" data-delay="3"><a href="/patterns/topbrands/?key=%25E5%25A4%25A7%25E7%2589%258C%25E8%25A1%258D%25E4%25BC%25B8#anchor" target="_blank"><span>大牌衍伸</span></a></div>
+                                    <div class="fade-up" data-delay="4"><a href="/patterns/topbrands/?key=Dior#anchor" target="_blank"><span>Dior</span></a></div>
+                                    <div class="fade-up" data-delay="5"><a href="/patterns/topbrands/bra_135757/gen_0/#anchor" target="_blank"><span>Louis Vuitton</span></a></div>
+                                    <div class="fade-up" data-delay="6"><a href="/patterns/topbrands/bra_82445/gen_0/#anchor" target="_blank"><span>Gucci</span></a></div>
                                 </li>
                                 <li>
-                                    <div class="fade-up" data-delay='2'><a class="tit" href="/patterns/technics/" target="_blank"><span>图案工艺</span></a></div>
-                                    <div class="fade-up" data-delay='3'><a href="/patterns/technics/protech_12222/#anchor" target="_blank"><span>品牌工艺</span></a></div>
-                                    <div class="fade-up" data-delay='4'><a href="/patterns/technics/protech_12221/#anchor" target="_blank"><span>市场工艺</span></a></div>
+                                    <div class="fade-up" data-delay="2"><a class="tit" href="/patterns/technics/" target="_blank"><span>图案工艺</span></a></div>
+                                    <div class="fade-up" data-delay="3"><a href="/patterns/technics/protech_12222/#anchor" target="_blank"><span>品牌工艺</span></a></div>
+                                    <div class="fade-up" data-delay="4"><a href="/patterns/technics/protech_12221/#anchor" target="_blank"><span>市场工艺</span></a></div>
                                 </li>
                             </ul>
                         </div>
                         <div class="nav_section">
-                            <div class="vline fade-up" data-delay='1'></div>
-                            <div class="title fade-up" data-delay='1' data-en="AI TOOLS">智能工具</div>
+                            <div class="vline fade-up" data-delay="1"></div>
+                            <div class="title fade-up" data-delay="1" data-en="AI TOOLS">智能工具</div>
                             <ul class="nav_items clearfix">
                                 <li>
-                                    <div class="fade-up" data-delay='2'><a class="max" href="/details/virtualspl/?id=554009&t=graphicitem&col=82&sign=4427a&codepic=https%253A%252F%252Fimgf3.pop-fashion.com%252Ffashion%252Fgraphic%252F20210730-sh5998%252Fmbig%252F49d63198322d4d972290615c22b0e81d.png" target="_blank"><span>实景模拟</span></a></div>
-                                    <div class="fade-up" data-delay='3'><a class="max" href="https://www.kuanok.com/" target="_blank"><span>作品存证-版圈</span></a></div>
+                                    <div class="fade-up" data-delay="2"><a class="max" href="/details/virtualspl/?id=554009&amp;t=graphicitem&amp;col=82&amp;sign=4427a&amp;codepic=https%253A%252F%252Fimgf3.pop-fashion.com%252Ffashion%252Fgraphic%252F20210730-sh5998%252Fmbig%252F49d63198322d4d972290615c22b0e81d.png" target="_blank"><span>实景模拟</span></a></div>
+                                    <div class="fade-up" data-delay="3"><a class="max" href="https://www.kuanok.com/" target="_blank"><span>作品存证-版圈</span></a></div>
                                 </li>
                             </ul>
                         </div>
@@ -428,5 +483,8 @@
                 </li>
             </ul>
         </div>
+    </div>
+    <input type="hidden" id="remind-time" value="">
+    <div class="contentW">
     </div>
 </div>

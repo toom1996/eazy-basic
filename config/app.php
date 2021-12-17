@@ -23,7 +23,7 @@ return [
             ]
         ],
         'db' => [
-            'host' => '192.168.10.35',
+            'host' => '192.168.100.65',
             'port' => 3306,
             'dbname' => 'toom',
             'charset' => 'utf8mb4',

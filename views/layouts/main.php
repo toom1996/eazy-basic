@@ -34,7 +34,7 @@
 
     </head>
     <body>
-    <div id="app" class="container">
+    <div id="app">
         <?= $content ?>
     </div>
     <!--</div>-->

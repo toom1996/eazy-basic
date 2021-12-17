@@ -4,8 +4,7 @@ $this->title = '123123';
 <!-- header start -->
 <?= \app\widgets\headers\MainHeader::widget() ?>
 <!-- header end -->
-
-<!-- main start -->
+<!-- filter start -->
 <div class="filter">
     <input type="hidden" id="link"
            data-sor=""
@@ -316,165 +315,849 @@ $this->title = '123123';
 
     </div>
 </div>
+<!-- filter end -->
 
-<div class="rightc_main js-runway-lists-box">
-    <ul itemscope class="runways clearfix lazyload">
-        <li class="js-placeholder-item">
-            <a href="javascript:void(0)" class="fl" title="查看详情">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-            </a>
-            <span class="fl line-middle"></span>
-            <div itemscope="" class="text_down">
-                <a href="javascript:void(0)" class="js-general-user-status" title="查看详情">
-                    <p itemprop="name" target="_blank" href="/runways/inside/id_83600/" class="title active_click"></p>
-                    <div itemscope="" class="leibie">
-                        <p itemprop="Designer"></p><p itemprop="time"> </p><p itemprop="place"></p>
-                    </div>
-                    <p itemscope="" class="time clearfix"><span itemprop="release time" class="fl"></span>
-                    </p>
-                </a>
+<div class="contant conheight report-list">
+    <input type="hidden" id="link" data-col="32" data-sor="" data-url="/analysis/shows/" data-param="tlive_1" data-search="" data-isauthorized="">
+    <input type="hidden" id="urlPrefix" value="/report/detail/">
+    <div id="anchor" style="top: 70px;"></div>
+    <!--头部轮播-->
+    <div class="banner-top new-banner-top new-banner">
+
+        <div class="contentW clearfix">
+            <div class="report-banner-contain js-report-banner-contain" style="display: block;">
+                <div class="recommend-banner-box js-recommend-banner-box"><a href="/statistics/link/?url=Mzg3NQ==_aHR0cHM6Ly93d3cucG9wLWZhc2hpb24uY29tL2RldGFpbHMvcmVwb3J0Ym9vay8xNTUvP3JlcG9ydF9pZD0xMjA1Ng==" target="_blank"><img src="https://imgf3.pop-fashion.com/fashion/fm/ad/20211203/387561aa0c3b8aa03.gif" alt=""></a></div>
+                <div class="series-banner-box js-series-banner-box">
+                    <ul class="bannerbox"><li style="display: none;"><a href="/statistics/link/?url=MzM1NQ==_aHR0cHM6Ly93d3cucG9wLWZhc2hpb24uY29tL3N0eWxlcy9zaG93cy9kaXNfMS8=" target="_blank"><img src="https://imgf3.pop-fashion.com/fashion/fm/ad/20211203/335561a9b9367c13b.jpg" alt="男装订货会分析"></a><p></p></li><li style="display: none;"><a href="/statistics/link/?url=MzYyOQ==_aHR0cHM6Ly93d3cucG9wLWZhc2hpb24uY29tL2Jvb2tzL29yZGVybWVldGluZy9nZW5fMi8jYW5jaG9y" target="_blank"><img src="https://imgf3.pop-fashion.com/fashion/fm/ad/20211203/362961aa149e5f9ae.jpg" alt="男装订货会分析"></a><p></p></li><li style="display: none;"><a href="/statistics/link/?url=MzYyOA==_aHR0cHM6Ly93d3cucG9wLWZhc2hpb24uY29tL2Jvb2tzL29yZGVybWVldGluZy9nZW5fMi8jYW5jaG9y" target="_blank"><img src="https://imgf3.pop-fashion.com/fashion/fm/ad/20211203/362861aa14abacbcd.jpg" alt="男装订货会分析"></a><p></p></li><li style="display: list-item;"><a href="/statistics/link/?url=MzYyNw==_aHR0cHM6Ly93d3cucG9wLWZhc2hpb24uY29tL2Jvb2tzL29yZGVybWVldGluZy9nZW5fMS8jYW5jaG9y" target="_blank"><img src="https://imgf3.pop-fashion.com/fashion/fm/ad/20211203/362761aa14e599780.jpg" alt="男装订货会分析"></a><p></p></li><li style="display: none;"><a href="/statistics/link/?url=MzU1Nw==_aHR0cHM6Ly93d3cucG9wLWZhc2hpb24uY29tL2Jvb2tzL3NlY2xpc3QvaWRfMTM5MDgtdF9kZXNpZ25yZWZyZW5jZS15bF8yLWNvbF83Mi8=" target="_blank"><img src="https://imgf3.pop-fashion.com/fashion/fm/ad/20211203/355761aa09c873730.jpg" alt="男装订货会分析"></a><p></p></li></ul>
+                    <ul class="jiaobiao"><li class=""></li><li class=""></li><li class=""></li><li class="cur"></li><li class=""></li></ul>
+                </div>
             </div>
-        </li>
-        <li class="js-placeholder-item">
-            <a href="javascript:void(0)" class="fl" title="查看详情">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-            </a>
-            <span class="fl line-middle"></span>
-            <div itemscope="" class="text_down">
-                <a href="javascript:void(0)" class="js-general-user-status" title="查看详情">
-                    <p itemprop="name" target="_blank" href="/runways/inside/id_83600/" class="title active_click"></p>
-                    <div itemscope="" class="leibie">
-                        <p itemprop="Designer"></p><p itemprop="time"> </p><p itemprop="place"></p>
+        </div>
+
+        <div class="list-nav-screen-section">
+            <div class="screen-selected-box">
+                <div class="contentW clearfix">
+                    <div class="s-crumbs-nav fl">
+                        <a href="/analysis/">流行分析</a>
+                        <span>&gt;</span>
+                        <a href="/analysis/shows/">订货会分析</a>
+
+                        <strong>(<em>0</em>)</strong>
                     </div>
-                    <p itemscope="" class="time clearfix"><span itemprop="release time" class="fl"></span>
-                    </p>
-                </a>
-            </div>
-        </li>
-        <li class="js-placeholder-item">
-            <a href="javascript:void(0)" class="fl" title="查看详情">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-            </a>
-            <span class="fl line-middle"></span>
-            <div itemscope="" class="text_down">
-                <a href="javascript:void(0)" class="js-general-user-status" title="查看详情">
-                    <p itemprop="name" target="_blank" href="/runways/inside/id_83600/" class="title active_click"></p>
-                    <div itemscope="" class="leibie">
-                        <p itemprop="Designer"></p><p itemprop="time"> </p><p itemprop="place"></p>
+                    <div class="s-selected-nav fl">
+
+
+
                     </div>
-                    <p itemscope="" class="time clearfix"><span itemprop="release time" class="fl"></span>
-                    </p>
-                </a>
+                </div>
             </div>
-        </li>
-        <li class="js-placeholder-item">
-            <a href="javascript:void(0)" class="fl" title="查看详情">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-            </a>
-            <span class="fl line-middle"></span>
-            <div itemscope="" class="text_down">
-                <a href="javascript:void(0)" class="js-general-user-status" title="查看详情">
-                    <p itemprop="name" target="_blank" href="/runways/inside/id_83600/" class="title active_click"></p>
-                    <div itemscope="" class="leibie">
-                        <p itemprop="Designer"></p><p itemprop="time"> </p><p itemprop="place"></p>
+            <div class="screen-list-box screen-list-box1500">
+                <div class="contentW clearfix">
+                    <div class="all-column-select fl js-all-column-select">
+                        <h2 href="javascript:void(0);" title="订货会分析">订货会分析<span><i class="nav-icon"></i></span></h2>
+                        <div class="all-column-downlist js-all-column-downlist" style="">
+                            <a href="/analysis/tlive_1/" title="全部">全部栏目</a>
+                            <a href="/analysis/tops/tlive_1/" title="爆款数据">爆款数据</a>
+                            <a href="/analysis/runways/tlive_1/" title="T台分析">T台分析</a>
+                            <a href="/analysis/online/tlive_1/" title="设计师品牌">设计师品牌</a>
+                            <a href="/analysis/retail/tlive_1/" title="标杆品牌">标杆品牌</a>
+                            <a href="/analysis/market/tlive_1/" title="市场分析">市场分析</a>
+                            <a href="/analysis/fabricanalysis/tlive_1/" title="面料分析">面料分析</a>
+                            <a href="/analysis/fairs/tlive_1/" title="展会分析">展会分析</a>
+                            <a href="/analysis/trendsetters/tlive_1/" title="明星/街拍">明星/街拍</a>
+                        </div>
                     </div>
-                    <p itemscope="" class="time clearfix"><span itemprop="release time" class="fl"></span>
-                    </p>
-                </a>
-            </div>
-        </li>
-        <li class="js-placeholder-item">
-            <a href="javascript:void(0)" class="fl" title="查看详情">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-            </a>
-            <span class="fl line-middle"></span>
-            <div itemscope="" class="text_down">
-                <a href="javascript:void(0)" class="js-general-user-status" title="查看详情">
-                    <p itemprop="name" target="_blank" href="/runways/inside/id_83600/" class="title active_click"></p>
-                    <div itemscope="" class="leibie">
-                        <p itemprop="Designer"></p><p itemprop="time"> </p><p itemprop="place"></p>
+                    <div class="screen-category-box fl">
+                        <div class="screen-category-list js-screen-category-list clearfix" style="display: block;">
+                            <ul class="clearfix js-screen-category">
+                                <li class="labels-light-type ">
+                                    <a href="#" title="全部">性别: <span>全部<em class="downlist_icon"></em></span><i class="nav-icon"></i></a>
+                                    <div class="downlist-ind-gen showbox" style="left: 0px;">
+                                        <a href="javascript:void(0);" title=" 男装" id="gi_142_1"> 男装</a>
+                                        <a href="javascript:void(0);" title=" 女装" id="gi_142_2"> 女装</a>
+                                        <a href="javascript:void(0);" title=" 童装" id="gi_142_5"> 童装</a>
+                                    </div>
+                                </li>
+
+                                <li class="labels-light-type labels-last-type">
+                                    <a href="##" title="全部">行业: <span>全部<em class="downlist_icon"></em></span><i class="nav-icon"></i></a>
+                                    <div class="downlist-ind-gen showbox" style="left: 0px;">
+                                        <a href="javascript:void(0);" title=" 毛衫" id="gi_158_6"> 毛衫</a>
+                                        <a href="javascript:void(0);" title=" 牛仔" id="gi_158_7"> 牛仔</a>
+                                        <a href="javascript:void(0);" title=" 皮革/皮草" id="gi_158_8"> 皮革/皮草</a>
+                                        <a href="javascript:void(0);" title=" 内衣/泳装/家居服" id="gi_158_9"> 内衣/泳装/家居服</a>
+                                        <a href="javascript:void(0);" title=" 婚纱/礼服" id="gi_158_10"> 婚纱/礼服</a>
+                                        <a href="javascript:void(0);" title=" 运动" id="gi_158_11"> 运动</a>
+                                    </div>
+                                </li>
+
+
+
+
+                                <!--面料分类-->
+                                <!--面料材质-->
+
+                                <li class="pli js-brand-search-box">
+                                    <span class="aspan">品牌<i class="nav-icon"></i></span>
+                                    <div class="category_box showPro showbox" style="left: 0px;">
+                                        <div class="inputBox" style="width: 670px;"><input type="text" class="searInputbox fl ui-autocomplete-input" value="搜索热门品牌名" name="HOT" style="color: rgb(148, 147, 147);" autocomplete="off"><span class="fr neiyeList"></span></div>
+                                        <div class="brands_ca">
+                                            <div class="items">
+                                                <div class="letter" name="STAR"><i></i></div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="A">A</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="B">B</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="C">C</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="D">D</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="E">E</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="F">F</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="G">G</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="H">H</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="I">I</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="J">J</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="K">K</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="L">L</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="M">M</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="N">N</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="O">O</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="P">P</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="Q">Q</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="R">R</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="S">S</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="T">T</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="U">U</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="V">V</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="W">W</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="X">X</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="Y">Y</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="Z">Z</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="0-9">0-9</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="OTHER">OTHER</div>
+                                            </div>
+                                            <div class="brandslist">
+                                                <div class="brand_result contentHolder mCustomScrollbar _mCS_2 mCS_no_scrollbar"><div id="mCSB_2" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" tabindex="0" style="max-height: 0px;"><div id="mCSB_2_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                            <div class="content">
+                                                                <ul class="clearfix" id="popBrand_0-9">
+                                                                </ul>
+                                                            </div>
+                                                        </div><div id="mCSB_2_scrollbar_vertical" class="mCSB_scrollTools mCSB_2_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_2_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="nav-function-div video-click-button js-live-video-select">
+                                <a class="i_live_video"><em class="nav-icon"></em>视频解读</a>
+                            </div>
+                            <div class="nav-function-div topstyles-button">
+                                <a href="/smarttrends/topstyles/" target="_blank"><em class="color-svg"></em>TOP款式</a>
+                            </div>
+
+                        </div>
+
                     </div>
-                    <p itemscope="" class="time clearfix"><span itemprop="release time" class="fl"></span>
-                    </p>
-                </a>
-            </div>
-        </li>
-        <li class="js-placeholder-item">
-            <a href="javascript:void(0)" class="fl" title="查看详情">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-                <img alt="6" itemprop="thumbnail" src="https://imgf2.pop-fashion.com/global/images/loading/runway.gif">
-            </a>
-            <span class="fl line-middle"></span>
-            <div itemscope="" class="text_down">
-                <a href="javascript:void(0)" class="js-general-user-status" title="查看详情">
-                    <p itemprop="name" target="_blank" href="/runways/inside/id_83600/" class="title active_click"></p>
-                    <div itemscope="" class="leibie">
-                        <p itemprop="Designer"></p><p itemprop="time"> </p><p itemprop="place"></p>
+
+                    <div class="screen-labels-box fr">
+                        <div class="s-only-labels fl">
+                            <a href="javascript:void(0);" class="only-collect collect " data-usertype="5"><i class="nav-icon"></i>收藏</a>
+                            <a href="javascript:void(0);" class="only-hot  ihot" data-val="1"><i class="nav-icon"></i>最热门</a>
+                            <a href="javascript:void(0);" class=" iIsAuthorized"><i class="nav-icon"></i>大数据</a>
+                            <a href="javascript:void(0);" class="only-fabric  iUliaobao"><i class="nav-icon"></i>配面料</a>
+
+                        </div>
+                        <div class="s-time-sort fl js-s-time-sort">
+                            <a><i class="nav-icon"></i>时间最新</a>
+                            <div class="s-time-list cateNum_list">
+                                <a class="cat_update sort" href="javascript:void(0);" data-key="sor" data-val="1">时间最新</a>
+                                <a class="cat_liulan sort" href="javascript:void(0);" data-key="sor" data-val="2">浏览最高</a>
+                                <a class="cat_shoucang sort" href="javascript:void(0);" data-key="sor" data-val="3">收藏最多</a>
+                            </div>
+                        </div>
                     </div>
-                    <p itemscope="" class="time clearfix"><span itemprop="release time" class="fl"></span>
-                    </p>
-                </a>
+                </div>
             </div>
-        </li>
-    </ul>
-</div>
-<div class="row mt-5 border">
-    <div class="bg-danger text-white p-3 visible">可以看见</div>
-    <div class="bg-danger text-white p-3 invisible">看不见，占据空间</div>
-    <div class="bg-danger text-white p-3 d-none">看不见，不占据空间</div>
-</div>
-<div class="list">
-    <div class="list-box row">
-        <ul itemscope class="ul-skeleton col-3 p-0" v-for="(item, i) in listData">
-            <li class="skeleton-item p-1">
-                <div class="mask">
-                    <div class="cover-warp">
-                        <img style="width: 100%;" class="cover-lazy" :src="item.cover" :alt="item.name" style="display: inline;">
-                        <div class="info">
-                            <div>
-                                <div class="title" title="小众出圈--2021年第十九届中国国际数码互动娱乐展览会">小众出圈--2021年第十九届中国国际数码互动娱乐展览会</div>
-                                <div class="label-list">
-                                    <a href="/analysis/fairs/sea_12322/" title="2021春夏">2021春夏</a>
-                                    <a href="/analysis/fairs/cat_11121/" title="外套">外套</a>
-                                    <a href="/analysis/fairs/cat_11118/" title="裙">裙</a>
-                                    <a href="/analysis/fairs/cat_11124/" title="礼服">礼服</a>
+            <div class="screen-list-box screen-list-box1200">
+                <div class="contentW clearfix">
+                    <div class="function-column-box clearfix">
+                        <div class="all-column-select fl js-all-column-select">
+                            <h2 href="javascript:void(0);" title="订货会分析">订货会分析<span><i class="nav-icon"></i></span></h2>
+                            <div class="all-column-downlist js-all-column-downlist" style="">
+                                <a href="/analysis/tlive_1/" title="全部">全部栏目</a>
+                                <a href="/analysis/tops/tlive_1/" title="爆款数据">爆款数据</a>
+                                <a href="/analysis/runways/tlive_1/" title="T台分析">T台分析</a>
+                                <a href="/analysis/online/tlive_1/" title="设计师品牌">设计师品牌</a>
+                                <a href="/analysis/retail/tlive_1/" title="标杆品牌">标杆品牌</a>
+                                <a href="/analysis/market/tlive_1/" title="市场分析">市场分析</a>
+                                <a href="/analysis/fabricanalysis/tlive_1/" title="面料分析">面料分析</a>
+                                <a href="/analysis/fairs/tlive_1/" title="展会分析">展会分析</a>
+                                <a href="/analysis/trendsetters/tlive_1/" title="明星/街拍">明星/街拍</a>
+                            </div>
+                        </div>
+
+
+                        <div class="nav-function-div video-click-button js-live-video-select">
+                            <a class="i_live_video"><em class="nav-icon"></em>视频解读</a>
+                        </div>
+                        <div class="nav-function-div topstyles-button">
+                            <a href="/smarttrends/topstyles/" target="_blank"><em class="color-svg"></em>TOP款式</a>
+                        </div>
+
+                    </div>
+                    <div class="screen-category-box clearfix">
+                        <div class="screen-category-list js-screen-category-list fl clearfix" style="display: block;">
+                            <ul class="clearfix js-screen-category">
+                                <li class="labels-light-type ">
+                                    <a href="#" title="全部">性别: <span>全部<em class="downlist_icon"></em></span><i class="nav-icon"></i></a>
+                                    <div class="downlist-ind-gen showbox" style="left: 0px;">
+                                        <a href="javascript:void(0);" title=" 男装" id="gi_142_1"> 男装</a>
+                                        <a href="javascript:void(0);" title=" 女装" id="gi_142_2"> 女装</a>
+                                        <a href="javascript:void(0);" title=" 童装" id="gi_142_5"> 童装</a>
+                                    </div>
+                                </li>
+
+                                <li class="labels-light-type labels-last-type">
+                                    <a href="##" title="全部">行业: <span>全部<em class="downlist_icon"></em></span><i class="nav-icon"></i></a>
+                                    <div class="downlist-ind-gen showbox">
+                                        <a href="javascript:void(0);" title=" 毛衫" id="gi_158_6"> 毛衫</a>
+                                        <a href="javascript:void(0);" title=" 牛仔" id="gi_158_7"> 牛仔</a>
+                                        <a href="javascript:void(0);" title=" 皮革/皮草" id="gi_158_8"> 皮革/皮草</a>
+                                        <a href="javascript:void(0);" title=" 内衣/泳装/家居服" id="gi_158_9"> 内衣/泳装/家居服</a>
+                                        <a href="javascript:void(0);" title=" 婚纱/礼服" id="gi_158_10"> 婚纱/礼服</a>
+                                        <a href="javascript:void(0);" title=" 运动" id="gi_158_11"> 运动</a>
+                                    </div>
+                                </li>
+
+
+
+
+                                <!--面料分类-->
+                                <!--面料材质-->
+
+                                <li class="pli js-brand-search-box">
+                                    <span class="aspan">品牌<i class="nav-icon"></i></span>
+                                    <div class="category_box showPro showbox" style="left: 0px;">
+                                        <div class="inputBox" style="width: 670px;"><input type="text" class="searInputbox fl ui-autocomplete-input" value="搜索热门品牌名" name="HOT" style="color: rgb(148, 147, 147);" autocomplete="off"><span class="fr neiyeList"></span></div>
+                                        <div class="brands_ca">
+                                            <div class="items">
+                                                <div class="letter" name="STAR"><i></i></div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="A">A</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="B">B</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="C">C</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="D">D</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="E">E</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="F">F</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="G">G</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="H">H</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="I">I</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="J">J</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="K">K</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="L">L</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="M">M</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="N">N</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="O">O</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="P">P</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="Q">Q</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="R">R</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="S">S</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="T">T</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="U">U</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="V">V</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="W">W</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="X">X</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="Y">Y</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="Z">Z</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="0-9">0-9</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="OTHER">OTHER</div>
+                                            </div>
+                                            <div class="brandslist">
+                                                <div class="brand_result contentHolder mCustomScrollbar _mCS_3 mCS_no_scrollbar"><div id="mCSB_3" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" tabindex="0" style="max-height: none;"><div id="mCSB_3_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                            <div class="content">
+                                                                <ul class="clearfix" id="popBrand_0-9">
+                                                                </ul>
+                                                            </div>
+                                                        </div><div id="mCSB_3_scrollbar_vertical" class="mCSB_scrollTools mCSB_3_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_3_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="screen-labels-box fr">
+                            <div class="s-only-labels fl">
+                                <a href="javascript:void(0);" class="only-collect collect " data-usertype="5"><i class="nav-icon"></i>收藏</a>
+                                <a href="javascript:void(0);" class="only-hot  ihot" data-val="1"><i class="nav-icon"></i>最热门</a>
+                                <a href="javascript:void(0);" class=" iIsAuthorized"><i class="nav-icon"></i>大数据</a>
+                                <a href="javascript:void(0);" class="only-fabric  iUliaobao"><i class="nav-icon"></i>配面料</a>
+                            </div>
+                            <div class="s-time-sort fl js-s-time-sort">
+                                <a><i class="nav-icon"></i>时间最新</a>
+                                <div class="s-time-list cateNum_list" style="display: none;">
+                                    <a class="cat_update sort" href="javascript:void(0);" data-key="sor" data-val="1">时间最新</a>
+                                    <a class="cat_liulan sort" href="javascript:void(0);" data-key="sor" data-val="2">浏览最高</a>
+                                    <a class="cat_shoucang sort" href="javascript:void(0);" data-key="sor" data-val="3">收藏最多</a>
                                 </div>
-                                <div class="label-mask">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="select-common-fixed js-select-common-fixed" style="left: 0px; width: 100%; display: none;">
+        <div class="list-nav-screen-section">
+            <div class="screen-selected-box">
+                <div class="contentW clearfix">
+                    <div class="s-crumbs-nav fl">
+                        <a href="/analysis/">流行分析</a>
+                        <span>&gt;</span>
+                        <a href="/analysis/shows/">订货会分析</a>
+
+                        <strong>(<em>0</em>)</strong>
+                    </div>
+                    <div class="s-selected-nav fl">
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="screen-list-box screen-list-box1500">
+                <div class="contentW clearfix">
+                    <div class="all-column-select fl js-all-column-select">
+                        <h2 href="javascript:void(0);" title="订货会分析">订货会分析<span><i class="nav-icon"></i></span></h2>
+                        <div class="all-column-downlist js-all-column-downlist" style="">
+                            <a href="/analysis/tlive_1/" title="全部">全部栏目</a>
+                            <a href="/analysis/tops/tlive_1/" title="爆款数据">爆款数据</a>
+                            <a href="/analysis/runways/tlive_1/" title="T台分析">T台分析</a>
+                            <a href="/analysis/online/tlive_1/" title="设计师品牌">设计师品牌</a>
+                            <a href="/analysis/retail/tlive_1/" title="标杆品牌">标杆品牌</a>
+                            <a href="/analysis/market/tlive_1/" title="市场分析">市场分析</a>
+                            <a href="/analysis/fabricanalysis/tlive_1/" title="面料分析">面料分析</a>
+                            <a href="/analysis/fairs/tlive_1/" title="展会分析">展会分析</a>
+                            <a href="/analysis/trendsetters/tlive_1/" title="明星/街拍">明星/街拍</a>
+                        </div>
+                    </div>
+                    <div class="screen-category-box fl">
+                        <div class="screen-category-list js-screen-category-list clearfix" style="display: block;">
+                            <ul class="clearfix js-screen-category">
+                                <li class="labels-light-type ">
+                                    <a href="#" title="全部">性别: <span>全部<em class="downlist_icon"></em></span><i class="nav-icon"></i></a>
+                                    <div class="downlist-ind-gen showbox" style="left: 0px;">
+                                        <a href="javascript:void(0);" title=" 男装" id="gi_142_1"> 男装</a>
+                                        <a href="javascript:void(0);" title=" 女装" id="gi_142_2"> 女装</a>
+                                        <a href="javascript:void(0);" title=" 童装" id="gi_142_5"> 童装</a>
+                                    </div>
+                                </li>
+
+                                <li class="labels-light-type labels-last-type">
+                                    <a href="##" title="全部">行业: <span>全部<em class="downlist_icon"></em></span><i class="nav-icon"></i></a>
+                                    <div class="downlist-ind-gen showbox" style="left: 0px;">
+                                        <a href="javascript:void(0);" title=" 毛衫" id="gi_158_6"> 毛衫</a>
+                                        <a href="javascript:void(0);" title=" 牛仔" id="gi_158_7"> 牛仔</a>
+                                        <a href="javascript:void(0);" title=" 皮革/皮草" id="gi_158_8"> 皮革/皮草</a>
+                                        <a href="javascript:void(0);" title=" 内衣/泳装/家居服" id="gi_158_9"> 内衣/泳装/家居服</a>
+                                        <a href="javascript:void(0);" title=" 婚纱/礼服" id="gi_158_10"> 婚纱/礼服</a>
+                                        <a href="javascript:void(0);" title=" 运动" id="gi_158_11"> 运动</a>
+                                    </div>
+                                </li>
+
+
+
+
+                                <!--面料分类-->
+                                <!--面料材质-->
+
+                                <li class="pli js-brand-search-box">
+                                    <span class="aspan">品牌<i class="nav-icon"></i></span>
+                                    <div class="category_box showPro showbox" style="left: 0px;">
+                                        <div class="inputBox" style="width: 670px;"><input type="text" class="searInputbox fl ui-autocomplete-input" value="搜索热门品牌名" name="HOT" style="color: rgb(148, 147, 147);" autocomplete="off"><span class="fr neiyeList"></span></div>
+                                        <div class="brands_ca">
+                                            <div class="items">
+                                                <div class="letter" name="STAR"><i></i></div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="A">A</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="B">B</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="C">C</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="D">D</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="E">E</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="F">F</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="G">G</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="H">H</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="I">I</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="J">J</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="K">K</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="L">L</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="M">M</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="N">N</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="O">O</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="P">P</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="Q">Q</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="R">R</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="S">S</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="T">T</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="U">U</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="V">V</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="W">W</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="X">X</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="Y">Y</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="Z">Z</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="0-9">0-9</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="OTHER">OTHER</div>
+                                            </div>
+                                            <div class="brandslist">
+                                                <div class="brand_result contentHolder mCustomScrollbar _mCS_4 mCS_no_scrollbar"><div id="mCSB_4" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" tabindex="0" style="max-height: 0px;"><div id="mCSB_4_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                            <div class="content">
+                                                                <ul class="clearfix" id="popBrand_0-9">
+                                                                </ul>
+                                                            </div>
+                                                        </div><div id="mCSB_4_scrollbar_vertical" class="mCSB_scrollTools mCSB_4_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_4_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="nav-function-div video-click-button js-live-video-select">
+                                <a class="i_live_video"><em class="nav-icon"></em>视频解读</a>
+                            </div>
+                            <div class="nav-function-div topstyles-button">
+                                <a href="/smarttrends/topstyles/" target="_blank"><em class="color-svg"></em>TOP款式</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="screen-labels-box fr">
+                        <div class="s-only-labels fl">
+                            <a href="javascript:void(0);" class="only-collect collect " data-usertype="5"><i class="nav-icon"></i>收藏</a>
+                            <a href="javascript:void(0);" class="only-hot  ihot" data-val="1"><i class="nav-icon"></i>最热门</a>
+                            <a href="javascript:void(0);" class=" iIsAuthorized"><i class="nav-icon"></i>大数据</a>
+                            <a href="javascript:void(0);" class="only-fabric  iUliaobao"><i class="nav-icon"></i>配面料</a>
+
+                        </div>
+                        <div class="s-time-sort fl js-s-time-sort">
+                            <a><i class="nav-icon"></i>时间最新</a>
+                            <div class="s-time-list cateNum_list">
+                                <a class="cat_update sort" href="javascript:void(0);" data-key="sor" data-val="1">时间最新</a>
+                                <a class="cat_liulan sort" href="javascript:void(0);" data-key="sor" data-val="2">浏览最高</a>
+                                <a class="cat_shoucang sort" href="javascript:void(0);" data-key="sor" data-val="3">收藏最多</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="screen-list-box screen-list-box1200">
+                <div class="contentW clearfix">
+                    <div class="function-column-box clearfix">
+                        <div class="all-column-select fl js-all-column-select">
+                            <h2 href="javascript:void(0);" title="订货会分析">订货会分析<span><i class="nav-icon"></i></span></h2>
+                            <div class="all-column-downlist js-all-column-downlist" style="">
+                                <a href="/analysis/tlive_1/" title="全部">全部栏目</a>
+                                <a href="/analysis/tops/tlive_1/" title="爆款数据">爆款数据</a>
+                                <a href="/analysis/runways/tlive_1/" title="T台分析">T台分析</a>
+                                <a href="/analysis/online/tlive_1/" title="设计师品牌">设计师品牌</a>
+                                <a href="/analysis/retail/tlive_1/" title="标杆品牌">标杆品牌</a>
+                                <a href="/analysis/market/tlive_1/" title="市场分析">市场分析</a>
+                                <a href="/analysis/fabricanalysis/tlive_1/" title="面料分析">面料分析</a>
+                                <a href="/analysis/fairs/tlive_1/" title="展会分析">展会分析</a>
+                                <a href="/analysis/trendsetters/tlive_1/" title="明星/街拍">明星/街拍</a>
+                            </div>
+                        </div>
+
+
+                        <div class="nav-function-div video-click-button js-live-video-select">
+                            <a class="i_live_video"><em class="nav-icon"></em>视频解读</a>
+                        </div>
+                        <div class="nav-function-div topstyles-button">
+                            <a href="/smarttrends/topstyles/" target="_blank"><em class="color-svg"></em>TOP款式</a>
+                        </div>
+
+                    </div>
+                    <div class="screen-category-box clearfix">
+                        <div class="screen-category-list js-screen-category-list fl clearfix" style="display: block;">
+                            <ul class="clearfix js-screen-category">
+                                <li class="labels-light-type ">
+                                    <a href="#" title="全部">性别: <span>全部<em class="downlist_icon"></em></span><i class="nav-icon"></i></a>
+                                    <div class="downlist-ind-gen showbox" style="left: 0px;">
+                                        <a href="javascript:void(0);" title=" 男装" id="gi_142_1"> 男装</a>
+                                        <a href="javascript:void(0);" title=" 女装" id="gi_142_2"> 女装</a>
+                                        <a href="javascript:void(0);" title=" 童装" id="gi_142_5"> 童装</a>
+                                    </div>
+                                </li>
+
+                                <li class="labels-light-type labels-last-type">
+                                    <a href="##" title="全部">行业: <span>全部<em class="downlist_icon"></em></span><i class="nav-icon"></i></a>
+                                    <div class="downlist-ind-gen showbox" style="left: 0px;">
+                                        <a href="javascript:void(0);" title=" 毛衫" id="gi_158_6"> 毛衫</a>
+                                        <a href="javascript:void(0);" title=" 牛仔" id="gi_158_7"> 牛仔</a>
+                                        <a href="javascript:void(0);" title=" 皮革/皮草" id="gi_158_8"> 皮革/皮草</a>
+                                        <a href="javascript:void(0);" title=" 内衣/泳装/家居服" id="gi_158_9"> 内衣/泳装/家居服</a>
+                                        <a href="javascript:void(0);" title=" 婚纱/礼服" id="gi_158_10"> 婚纱/礼服</a>
+                                        <a href="javascript:void(0);" title=" 运动" id="gi_158_11"> 运动</a>
+                                    </div>
+                                </li>
+
+
+
+
+                                <!--面料分类-->
+                                <!--面料材质-->
+
+                                <li class="pli js-brand-search-box">
+                                    <span class="aspan">品牌<i class="nav-icon"></i></span>
+                                    <div class="category_box showPro showbox" style="left: 0px;">
+                                        <div class="inputBox" style="width: 670px;"><input type="text" class="searInputbox fl ui-autocomplete-input" value="搜索热门品牌名" name="HOT" style="color: rgb(148, 147, 147);" autocomplete="off"><span class="fr neiyeList"></span></div>
+                                        <div class="brands_ca">
+                                            <div class="items">
+                                                <div class="letter" name="STAR"><i></i></div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="A">A</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="B">B</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="C">C</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="D">D</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="E">E</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="F">F</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="G">G</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="H">H</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="I">I</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="J">J</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="K">K</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="L">L</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="M">M</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="N">N</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="O">O</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="P">P</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="Q">Q</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="R">R</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="S">S</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="T">T</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="U">U</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="V">V</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="W">W</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="X">X</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="Y">Y</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="Z">Z</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="0-9">0-9</div>
+                                            </div>
+                                            <div class="items">
+                                                <div class="letter" name="OTHER">OTHER</div>
+                                            </div>
+                                            <div class="brandslist">
+                                                <div class="brand_result contentHolder mCustomScrollbar _mCS_5 mCS_no_scrollbar"><div id="mCSB_5" class="mCustomScrollBox mCS-dark-3 mCSB_vertical mCSB_inside" tabindex="0" style="max-height: 0px;"><div id="mCSB_5_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                                                            <div class="content">
+                                                                <ul class="clearfix" id="popBrand_0-9">
+                                                                </ul>
+                                                            </div>
+                                                        </div><div id="mCSB_5_scrollbar_vertical" class="mCSB_scrollTools mCSB_5_scrollbar mCS-dark-3 mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_5_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="screen-labels-box fr">
+                            <div class="s-only-labels fl">
+                                <a href="javascript:void(0);" class="only-collect collect " data-usertype="5"><i class="nav-icon"></i>收藏</a>
+                                <a href="javascript:void(0);" class="only-hot  ihot" data-val="1"><i class="nav-icon"></i>最热门</a>
+                                <a href="javascript:void(0);" class=" iIsAuthorized"><i class="nav-icon"></i>大数据</a>
+                                <a href="javascript:void(0);" class="only-fabric  iUliaobao"><i class="nav-icon"></i>配面料</a>
+                            </div>
+                            <div class="s-time-sort fl js-s-time-sort">
+                                <a><i class="nav-icon"></i>时间最新</a>
+                                <div class="s-time-list cateNum_list">
+                                    <a class="cat_update sort" href="javascript:void(0);" data-key="sor" data-val="1">时间最新</a>
+                                    <a class="cat_liulan sort" href="javascript:void(0);" data-key="sor" data-val="2">浏览最高</a>
+                                    <a class="cat_shoucang sort" href="javascript:void(0);" data-key="sor" data-val="3">收藏最多</a>
                                 </div>
-                                <div class="info-mask">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 报告栏目tab切换 -->
+
+    <!--列表内容-->
+
+    <div class="list mt-1 container">
+        <div class="list-box row">
+            <ul v-show="listData.length > 0" itemscope class="ul-skeleton col-3 p-0" v-for="(item, i) in listData">
+                <li class="skeleton-item p-1">
+                    <div class="mask">
+                        <div class="cover-warp">
+                            <img style="width: 100%;" class="cover-lazy" :src="item.cover" :alt="item.title" style="display: inline;">
+                            <div class="info">
+                                <div>
+                                    <a href="javascript(0);">
+                                        <div class="title" :title="item.name">{{ item.title }}</div>
+                                    </a>
                                     <div class="label-list">
                                         <a href="/analysis/fairs/sea_12322/" title="2021春夏">2021春夏</a>
                                         <a href="/analysis/fairs/cat_11121/" title="外套">外套</a>
                                         <a href="/analysis/fairs/cat_11118/" title="裙">裙</a>
                                         <a href="/analysis/fairs/cat_11124/" title="礼服">礼服</a>
                                     </div>
-                                    <div class="warp clearfix">
-                                        <span class="time fl">2021-08-06</span>
-                                        <span class="view fr">61787</span>
+                                    <div class="label-mask">
                                     </div>
-                                    <div class="bg"></div>
-                                    <div class="bg bg-dark"></div>
+                                    <div class="info-mask">
+                                        <div class="label-list">
+                                            <a href="/analysis/fairs/sea_12322/" title="2021春夏">2021春夏</a>
+                                            <a href="/analysis/fairs/cat_11121/" title="外套">外套</a>
+                                            <a href="/analysis/fairs/cat_11118/" title="裙">裙</a>
+                                            <a href="/analysis/fairs/cat_11124/" title="礼服">礼服</a>
+                                        </div>
+                                        <div class="warp clearfix">
+                                            <span class="time fl">2021-08-06</span>
+                                            <span class="view fr">61787</span>
+                                        </div>
+                                        <div class="bg"></div>
+                                        <div class="bg bg-dark"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </li>
+            </ul>
+            <div v-show="listData.length == 0" class="rightc_main">
+                <!-- 这是游客身份-->
+                <div class="no_sear  ">
+                    <p>抱歉，没找到符合条件的内容，试试<a href="/search/" class="js-search-jump" target="_blank">全站搜索</a> 吧！</p>
                 </div>
-            </li>
-        </ul>
-    </div>
-</div>
 
+                <!-- 图案搜索为空时推荐数据 -->
+
+            </div>
+        </div>
+    </div>
+
+</div>
 <!-- 留资 -->
 <!-- 底部弹层 -->
 <div class="col-footer-layer home-footer-layer js-col-footer-layer">
