@@ -1,5 +1,5 @@
 const path = require('path');
-
+const { VueLoaderPlugin } = require('vue-loader');
 module.exports = {
     entry: {
         '/site/index': {
@@ -27,5 +27,18 @@ module.exports = {
             'vue$': 'vue/dist/vue.cjs.js'
         }
     },
+    module: {
+        rules: [
+            {
+                test:/\.vue$/,
+                use:{
+                    loader:'vue-loader'
+                }
+            },
+        ]
+    },
     mode: 'production',
+    plugins:[
+        new VueLoaderPlugin()
+    ],
 };

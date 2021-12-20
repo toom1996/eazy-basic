@@ -21,8 +21,8 @@
                     </div>
                     <div class="f-search-input js-search-box fl">
                         <div class="js-all-input-contain">
-                            <input v-model="searchData.wd" type="text" class="Itext input-Itext js-Itext" growing-track="true" placeholder="在本页面搜索你想要的…" style="padding-left:127px;" data-type="column" >
-                            <input  @click="search" class="search-btn js-search-btn common-icon" type="button">
+                            <input v-on:keyup.enter="search" v-model="searchData.wd" type="text" class="Itext input-Itext js-Itext" growing-track="true" placeholder="在本页面搜索你想要的…" style="padding-left:127px;" data-type="column" >
+                            <input @click="search" class="search-btn js-search-btn common-icon" type="button">
                             <div class="search_listDown">
                                 <div class="menu"><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0" style="display: none;"></ul></div>
                                 <div class="hot-menu">
