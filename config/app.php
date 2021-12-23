@@ -19,6 +19,9 @@ return [
                 ],
                 '/api/v1/store' => [
                     ['GET', '/search', '@api/v1/controllers/store/search']
+                ],
+                '/api/v1/member' => [
+                    ['POST', '/login', '@api/v1/controllers/member/login']
                 ]
             ]
         ],
